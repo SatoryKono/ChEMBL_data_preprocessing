@@ -215,9 +215,11 @@ def _aggregate(df: pd.DataFrame, group_col: str, status: StatusAPI) -> pd.DataFr
     )
 
 
+
 def activity_from_pairs(
     pairs: pd.DataFrame, init_status: pd.DataFrame, status: StatusAPI
 ) -> pd.DataFrame:
+
     """Return a unified activity table built from *pairs*.
 
     The input ``pairs`` table may originate from different preprocessing
@@ -229,15 +231,18 @@ def activity_from_pairs(
     merge the ``Filtered`` status is updated based on the initial status in
     ``Filtered.init`` and the pair-derived ``Filtered.new`` column.
 
+
     Parameters
     ----------
     pairs:
         Dataframe with pairwise activity information.
     init_status:
         Initialise status dataframe with ``Filtered.init`` and other metadata.
+
     status:
         :class:`StatusAPI` instance providing order comparisons and next
         status lookups.
+
 
     Returns
     -------
@@ -246,6 +251,7 @@ def activity_from_pairs(
         containing the minimal set of columns required for later aggregation
         steps.  The table includes ``Filtered.init``, ``Filtered.new`` and the
         final ``Filtered`` value.
+
     """
 
     # ``pairs`` may lack canonical column names when sourced from older
