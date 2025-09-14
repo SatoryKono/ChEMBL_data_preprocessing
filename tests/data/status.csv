@@ -1,0 +1,4 @@
+status,condition_field,condition_value,order,score
+OK,no_issue,null,0,0
+WARNING,high_citation_rate,x,1,10
+ERROR,review,x,2,20
