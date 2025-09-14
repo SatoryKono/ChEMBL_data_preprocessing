@@ -6,6 +6,7 @@ import pandas as pd
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 from pipeline import aggregate_entities, initialize_pairs, initialize_status
+from constants import Cols
 from status_utils import StatusUtils
 
 
@@ -66,6 +67,7 @@ def test_pairs_and_aggregates():
     )
 
 
+
 def test_pairs_with_legacy_columns() -> None:
     """``aggregate_entities`` handles pairs with legacy column names."""
     status, activities, pairs = load_data()
@@ -83,3 +85,4 @@ def test_pairs_with_legacy_columns() -> None:
         activity.loc[activity["activity_chembl_id"] == "a1", "independent_IC50"].iat[0]
         == 1
     )
+
