@@ -27,6 +27,14 @@ STATUS_FLAGS: List[str] = [
     "unknown_chirality",
 ]
 
+# Columns containing activity counts that may be absent in input data.
+COUNT_COLUMNS: List[str] = [
+    Cols.INDEPENDENT_IC50,
+    Cols.NON_INDEPENDENT_IC50,
+    Cols.INDEPENDENT_KI,
+    Cols.NON_INDEPENDENT_KI,
+]
+
 
 @dataclass
 class Config:
@@ -108,7 +116,32 @@ def _agg_filtered(status: StatusUtils, series: pd.Series) -> str:
     return status.get_max(statuses)
 
 
+def ensure_count_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """Ensure count columns exist in ``df``.
+
+    Parameters
+    ----------
+    df:
+        DataFrame that should contain columns defined in :data:`COUNT_COLUMNS`.
+
+    Returns
+    -------
+    pandas.DataFrame
+        Original dataframe with any missing count columns added and filled with
+        zeros.  A copy is returned only if new columns are created.
+    """
+
+    missing = [c for c in COUNT_COLUMNS if c not in df.columns]
+    if not missing:
+        return df
+    result = df.copy()
+    for col in missing:
+        result[col] = 0
+    return result
+
+
 def _aggregate(df: pd.DataFrame, group_col: str, status: StatusUtils) -> pd.DataFrame:
+    df = ensure_count_columns(df)
     return (
         df.groupby(group_col)
         .agg(
@@ -126,6 +159,14 @@ def _aggregate(df: pd.DataFrame, group_col: str, status: StatusUtils) -> pd.Data
 
 
 def activity_from_pairs(pairs: pd.DataFrame) -> pd.DataFrame:
+    """Create a unified activity table from ``pairs``.
+
+    The input *pairs* table may omit the count columns defined in
+    :data:`COUNT_COLUMNS`; missing columns are added with zeros to avoid
+    ``KeyError`` during aggregation.
+    """
+
+    pairs = ensure_count_columns(pairs)
     cols = [
         Cols.ACTIVITY_ID1,
         Cols.TESTITEM_ID,
