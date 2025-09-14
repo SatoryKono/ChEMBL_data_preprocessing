@@ -64,3 +64,22 @@ def test_pairs_and_aggregates():
     assert (
         target.loc[target["target_chembl_id"] == "tar1", "independent_IC50"].iat[0] == 1
     )
+
+
+def test_pairs_with_legacy_columns() -> None:
+    """``aggregate_entities`` handles pairs with legacy column names."""
+    status, activities, pairs = load_data()
+    legacy_pairs = pairs.rename(
+        columns={
+            "testitem_chembl_id": "molecule_chembl_id",
+            "mesurement_type": "standard_type",
+        }
+    )
+    init_act = initialize_status(activities, status, "GLOBAL_MIN")
+    init_pairs = initialize_pairs(legacy_pairs, init_act, status)
+    entities = aggregate_entities(init_pairs, init_act, status)
+    activity = entities["activity"]
+    assert (
+        activity.loc[activity["activity_chembl_id"] == "a1", "independent_IC50"].iat[0]
+        == 1
+    )

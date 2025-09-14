@@ -126,6 +126,42 @@ def _aggregate(df: pd.DataFrame, group_col: str, status: StatusUtils) -> pd.Data
 
 
 def activity_from_pairs(pairs: pd.DataFrame) -> pd.DataFrame:
+    """Return a unified activity table built from *pairs*.
+
+    The input ``pairs`` table may originate from different preprocessing
+    pipelines.  Some datasets use legacy column names such as
+    ``molecule_chembl_id`` or ``standard_type`` instead of the canonical
+    :data:`Cols.TESTITEM_ID` and :data:`Cols.MEASUREMENT_TYPE`.  This helper
+    normalises such variations before aggregating the activity information.
+
+    Parameters
+    ----------
+    pairs:
+        Dataframe with pairwise activity information.
+
+    Returns
+    -------
+    pandas.DataFrame
+        Deduplicated list of activities with the minimal set of columns
+        required for later aggregation steps.
+    """
+
+    # ``pairs`` may lack canonical column names when sourced from older
+    # pipelines.  Accept common fallbacks and normalise them to the expected
+    # names.  This avoids ``KeyError`` when selecting ``cols`` below.
+    rename_map = {}
+    if Cols.TESTITEM_ID not in pairs.columns:
+        if "molecule_chembl_id" in pairs.columns:
+            rename_map["molecule_chembl_id"] = Cols.TESTITEM_ID
+    if Cols.MEASUREMENT_TYPE not in pairs.columns:
+        # the column is historically misspelled; also accept ``standard_type``
+        for alt in ("measurement_type", "standard_type"):
+            if alt in pairs.columns:
+                rename_map[alt] = Cols.MEASUREMENT_TYPE
+                break
+    if rename_map:
+        pairs = pairs.rename(columns=rename_map)
+
     cols = [
         Cols.ACTIVITY_ID1,
         Cols.TESTITEM_ID,
@@ -137,6 +173,10 @@ def activity_from_pairs(pairs: pd.DataFrame) -> pd.DataFrame:
         Cols.INDEPENDENT_KI,
         Cols.NON_INDEPENDENT_KI,
     ]
+    missing = [c for c in cols if c not in pairs.columns]
+    if missing:
+        raise KeyError(f"required columns {missing} not found in pairs table")
+
     left = pairs[cols].rename(columns={Cols.ACTIVITY_ID1: Cols.ACTIVITY_ID})
     right = pairs[
         [
