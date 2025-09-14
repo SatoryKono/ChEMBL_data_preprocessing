@@ -53,6 +53,50 @@ def load_csv(path: Path, dtype: Optional[Dict[str, str]] = None) -> pd.DataFrame
     return pd.read_csv(path, dtype=dtype)  # type: ignore[arg-type]
 
 
+def _normalise_activity_columns(df: pd.DataFrame) -> pd.DataFrame:
+    """Return *df* with legacy column names mapped to the canonical ones.
+
+    Older datasets may label columns differently, e.g. ``test_item.id`` or
+    ``standard_type``.  This helper accepts such variations and renames them to
+    the identifiers defined in :class:`constants.Cols`.
+
+    Parameters
+    ----------
+    df:
+        Raw activities dataframe.
+
+    Returns
+    -------
+    pandas.DataFrame
+        DataFrame with columns renamed in-place when legacy names are
+        encountered.
+    """
+
+    rename_map: Dict[str, str] = {}
+    # Map canonical column names to commonly seen alternatives.
+    legacy_names = {
+        Cols.TESTITEM_ID: [
+            "test_item.id",
+            "testitem_id",
+            "molecule_chembl_id",
+            "molecule_id",
+        ],
+        Cols.MEASUREMENT_TYPE: ["measurement_type", "standard_type"],
+        Cols.ASSAY_ID: ["assay_id"],
+        Cols.DOCUMENT_ID: ["document_id"],
+        Cols.TARGET_ID: ["target_id"],
+    }
+    for canonical, alts in legacy_names.items():
+        if canonical not in df.columns:
+            for alt in alts:
+                if alt in df.columns:
+                    rename_map[alt] = canonical
+                    break
+    if rename_map:
+        df = df.rename(columns=rename_map)
+    return df
+
+
 def initialize_status(
     activities: pd.DataFrame, status: StatusUtils, empty_fallback: str
 ) -> pd.DataFrame:
@@ -69,7 +113,7 @@ def initialize_status(
         minimal status from the global order, ``ERROR`` raises ``ValueError``.
     """
 
-    df = activities.copy()
+    df = _normalise_activity_columns(activities.copy())
     df[Cols.NO_ISSUE] = ~df[STATUS_FLAGS].any(axis=1)
 
     def _compute(row: pd.Series) -> str:
@@ -182,10 +226,17 @@ def activity_from_pairs(pairs: pd.DataFrame) -> pd.DataFrame:
     # ``pairs`` may lack canonical column names when sourced from older
     # pipelines.  Accept common fallbacks and normalise them to the expected
     # names.  This avoids ``KeyError`` when selecting ``cols`` below.
-    rename_map = {}
+    rename_map: Dict[str, str] = {}
     if Cols.TESTITEM_ID not in pairs.columns:
-        if "molecule_chembl_id" in pairs.columns:
-            rename_map["molecule_chembl_id"] = Cols.TESTITEM_ID
+        for alt in (
+            "test_item.id",
+            "testitem_id",
+            "molecule_chembl_id",
+            "molecule_id",
+        ):
+            if alt in pairs.columns:
+                rename_map[alt] = Cols.TESTITEM_ID
+                break
     if Cols.MEASUREMENT_TYPE not in pairs.columns:
         # the column is historically misspelled; also accept ``standard_type``
         for alt in ("measurement_type", "standard_type"):

@@ -83,3 +83,22 @@ def test_pairs_with_legacy_columns() -> None:
         activity.loc[activity["activity_chembl_id"] == "a1", "independent_IC50"].iat[0]
         == 1
     )
+
+
+def test_activities_with_legacy_columns() -> None:
+    """``initialize_status`` accepts activities with legacy column names."""
+    status, activities, pairs = load_data()
+    legacy_act = activities.rename(
+        columns={
+            "testitem_chembl_id": "test_item.id",
+            "mesurement_type": "measurement_type",
+        }
+    )
+    init_act = initialize_status(legacy_act, status, "GLOBAL_MIN")
+    init_pairs = initialize_pairs(pairs, init_act, status)
+    # ``aggregate_entities`` should succeed using the normalised columns
+    entities = aggregate_entities(init_pairs, init_act, status)
+    system = entities["system"]
+    assert (
+        system.loc[system["system_id"] == "t1_tar1_type1", "independent_Ki"].iat[0] == 2
+    )
