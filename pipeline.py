@@ -333,7 +333,7 @@ def activity_from_pairs(
         new = row.get(Cols.FILTERED_NEW)
         if init == new:
             return str(new)
-        cmp = status.ascending(str(init), str(new))
+        cmp = status.ascending( str(new), str(init))
         if cmp == 1:
             return status.next(str(new))
         if cmp == 0:
