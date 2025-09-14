@@ -1,0 +1,2 @@
+activity_id1,activity_id2,testitem_id,target_id,mesurement_type,independent_IC50,non_independent_IC50,independent_Ki,non_independent_Ki
+act1,act2,test1,targ1,type1,1,2,3,4
