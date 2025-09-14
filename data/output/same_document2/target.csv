@@ -1,187 +1,187 @@
 target_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independent_Ki,non_independent_Ki
-CHEMBL1075029,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1075029,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1075045,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL1075097,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL1075097,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1075104,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL1075108,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL1075126,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1075126,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1075128,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL1075138,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL1075145,review,0.0,0.0,0.0,0.0
-CHEMBL1075162,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1075164,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1075162,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1075164,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1075165,review,0.0,0.0,0.0,0.0
-CHEMBL1075172,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1075173,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1075172,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1075173,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1075174,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL1075189,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL1075201,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1075201,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1075226,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL1075228,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL1075263,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1075268,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1075294,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL1075228,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1075263,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1075268,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1075294,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1075302,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL1075317,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL1075319,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL1075319,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1075320,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL1075323,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1163101,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1075323,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1163101,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1163109,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL1163111,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1163125,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL1163130,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL1169596,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1169598,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL1250378,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1250378,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1250379,review,0.0,0.0,0.0,0.0
 CHEMBL1250402,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1255126,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL1255149,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL1255163,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1255163,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1275212,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1275214,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL1275221,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1287623,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL1287627,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL1293204,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1275221,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1287623,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1287627,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1293204,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1293224,review,0.0,0.0,0.0,0.0
 CHEMBL1293226,review,0.0,0.0,0.0,0.0
 CHEMBL1293237,review,0.0,0.0,0.0,0.0
 CHEMBL1293255,multifunctional enzyme,0.0,0.0,0.0,0.0
-CHEMBL1293267,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL1293267,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1293269,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL1293287,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1293289,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL1293292,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL1293293,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1293320,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1613743,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1293293,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1293320,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1613743,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1615384,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL1628461,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL1628477,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1628481,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1628477,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1628481,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1641346,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL1649052,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL1667683,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL1667685,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL1667686,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL1667695,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL1671609,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1671612,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1671609,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1671612,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1681620,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL1687677,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1697657,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1697671,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1687677,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1697657,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1697671,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1741179,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL1741186,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL1741203,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL1741208,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1741217,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL1741208,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1741217,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1741219,review,0.0,0.0,0.0,0.0
-CHEMBL1741220,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1741221,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1743126,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL1743183,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1741220,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1741221,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1743126,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1743183,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1744525,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1770046,review,0.0,0.0,0.0,0.0
-CHEMBL1772927,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1772927,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1781,review,0.0,0.0,0.0,0.0
-CHEMBL1781865,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL1781865,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1782,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL1784,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL1784,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1785,review,0.0,0.0,0.0,0.0
 CHEMBL1787,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1790,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1792,shuffled assays,0.0,0.0,0.0,0.0
 CHEMBL1795101,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL1795116,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1795116,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1795117,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1795126,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL1795136,review,0.0,0.0,0.0,0.0
-CHEMBL1795139,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1795143,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1795167,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1795176,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1795139,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1795143,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1795167,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1795176,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1795185,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL1795186,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL1795188,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL1795194,shuffled assays,0.0,0.0,0.0,0.0
 CHEMBL1795199,review,0.0,0.0,0.0,0.0
-CHEMBL1798,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1798,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1800,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1801,review,0.0,0.0,0.0,0.0
-CHEMBL1803,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1804,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1803,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1804,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1805,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL1806,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL1806,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1808,review,0.0,0.0,0.0,0.0
 CHEMBL1809,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL1811,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1821,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL1822,multifunctional enzyme,0.0,0.0,0.0,0.0
 CHEMBL1824,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL1825,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL1825,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1827,review,0.0,0.0,0.0,0.0
-CHEMBL1828,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL1828,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1829,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1833,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1836,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL1841,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1841,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1844,review,0.0,0.0,0.0,0.0
-CHEMBL1845,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1845,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1849,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL1850,shuffled assays,0.0,0.0,0.0,0.0
 CHEMBL1853,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1855,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL1856,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1859,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL1860,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL1860,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1862,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL1865,review,0.0,0.0,0.0,0.0
 CHEMBL1867,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL1868,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1868,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1871,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL1875,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1881,review,0.0,0.0,0.0,0.0
 CHEMBL1889,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL1892,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL1893,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL1892,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1893,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1898,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL1899,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL1899,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1900,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1901,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL1902,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL1902,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1904,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL1906,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1907,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL1908,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL1908389,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1909484,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL1908389,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1909484,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1910,review,0.0,0.0,0.0,0.0
-CHEMBL1913,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL1913,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1914,review,0.0,0.0,0.0,0.0
-CHEMBL1914272,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL1914272,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1916,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL1917,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL1918,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL1918,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1921,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL1921661,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1921661,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1926,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL1926488,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL1929,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL1932895,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1932912,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1935,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1932895,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1932912,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1935,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1936,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL1937,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL1938210,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL1938219,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL1940,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL1938210,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1938219,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL1940,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1941,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1942,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1944,shuffled assays,0.0,0.0,0.0,0.0
-CHEMBL1944495,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1944495,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1944501,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL1945,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1946,highly correlated assays,0.0,0.0,0.0,0.0
@@ -189,7 +189,7 @@ CHEMBL1947,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1949483,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL1951,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL1952,multifunctional enzyme,0.0,0.0,0.0,0.0
-CHEMBL1955,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1955,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1957,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL1966,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL1972,review,0.0,0.0,0.0,0.0
@@ -203,74 +203,74 @@ CHEMBL1983,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1985,review,0.0,0.0,0.0,0.0
 CHEMBL1987,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1991,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL1992,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL1992,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL1993,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL1994,review,0.0,0.0,0.0,0.0
-CHEMBL1995,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL1995,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2000,review,0.0,0.0,0.0,0.0
 CHEMBL2001,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL2002,multifunctional enzyme,0.0,0.0,0.0,0.0
-CHEMBL2007,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2007,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2007625,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL2007628,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL2007629,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL2009,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL2007628,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2007629,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2009,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2010631,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL2010636,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL2014,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2015,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL2016431,review,0.0,0.0,0.0,0.0
 CHEMBL202,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL2021749,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL2021752,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL2021753,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL2021749,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2021752,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2021753,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2023,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL2027,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL2027,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2028,shuffled assays,0.0,0.0,0.0,0.0
 CHEMBL2029197,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2029198,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL203,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL2034,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL2034807,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL2034807,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2035,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2039,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL204,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2041,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL2046259,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL2046266,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL2046259,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2046266,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2046267,shuffled assays,0.0,0.0,0.0,0.0
 CHEMBL2047,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2049,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL205,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL2052028,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2052028,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2052031,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL2056,shuffled assays,0.0,0.0,0.0,0.0
 CHEMBL206,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL2061,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2065,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL2068,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2068,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2069,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL2069156,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL2072,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL2073,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL2073663,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL2073674,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL2073676,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL2073709,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL2079849,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL2069156,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2072,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2073,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2073663,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2073674,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2073676,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2073709,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2079849,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL208,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL2081,multifunctional enzyme,0.0,0.0,0.0,0.0
-CHEMBL2083,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2083,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2085,review,0.0,0.0,0.0,0.0
-CHEMBL2088,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL2094,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL2099,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2088,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2094,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2099,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL210,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2104,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2107,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL211,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2121,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL2123,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2123,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL213,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2135,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2136,exact data citation,0.0,0.0,0.0,0.0
@@ -278,47 +278,47 @@ CHEMBL214,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2140,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2145,shuffled assays,0.0,0.0,0.0,0.0
 CHEMBL2146302,shuffled assays,0.0,0.0,0.0,0.0
-CHEMBL2146350,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2146350,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2147,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2148,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL215,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL2150835,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL2150837,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL2150837,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL216,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL2163175,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL2163175,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2163176,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2163183,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL2169716,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL2169716,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2169726,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL2169736,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL2169736,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL217,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL2176771,review,0.0,0.0,0.0,0.0
 CHEMBL2176774,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL2176776,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL2176776,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2176777,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2176778,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2176837,multifunctional enzyme,0.0,0.0,0.0,0.0
 CHEMBL2176846,review,0.0,0.0,0.0,0.0
-CHEMBL2179,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL2179,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL218,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL2181,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL2182,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2185,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL2186,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2186,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2189110,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2189117,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL2189121,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL2189121,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2189127,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL219,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL220,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL2208,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL2208,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL221,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL2216745,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL2219,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2216745,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2219,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL222,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL223,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2231,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL2237,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2237,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2238,shuffled assays,0.0,0.0,0.0,0.0
 CHEMBL224,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2243,highly correlated assays,0.0,0.0,0.0,0.0
@@ -328,7 +328,7 @@ CHEMBL2253,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL226,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2265,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL2268003,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL227,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL227,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2274,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL2276,review,0.0,0.0,0.0,0.0
 CHEMBL228,rounded data citation,0.0,0.0,0.0,0.0
@@ -341,33 +341,33 @@ CHEMBL2304404,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL231,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2311243,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL232,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL2321613,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL2321614,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2321613,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2321614,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2321628,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL2321630,multifunctional enzyme,0.0,0.0,0.0,0.0
-CHEMBL2321643,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2321643,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2326,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL2327,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL233,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL2331041,review,0.0,0.0,0.0,0.0
 CHEMBL2331053,multifunctional enzyme,0.0,0.0,0.0,0.0
-CHEMBL2331064,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2331064,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2334,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL2335,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL2337,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL2337,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2339,multifunctional enzyme,0.0,0.0,0.0,0.0
 CHEMBL234,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL2343,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL2345,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL2346486,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2346486,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2346488,review,0.0,0.0,0.0,0.0
 CHEMBL235,shuffled assays,0.0,0.0,0.0,0.0
 CHEMBL236,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL2360,review,0.0,0.0,0.0,0.0
-CHEMBL2362979,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL2366456,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL2366481,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL2366494,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL2362979,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2366456,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2366481,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2366494,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2366504,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL2366516,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL2366517,unicellular_organism,0.0,0.0,0.0,0.0
@@ -380,12 +380,12 @@ CHEMBL2375207,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL238,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2380186,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL2383,multifunctional enzyme,0.0,0.0,0.0,0.0
-CHEMBL2384891,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL239,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL2384891,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL239,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2397,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL240,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL2409,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL241,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL241,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2413,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2414,shuffled assays,0.0,0.0,0.0,0.0
 CHEMBL2417347,review,0.0,0.0,0.0,0.0
@@ -397,53 +397,53 @@ CHEMBL2429708,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2429709,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL243,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL2431,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL2434,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL2434,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2439,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2439944,multifunctional enzyme,0.0,0.0,0.0,0.0
 CHEMBL244,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2443,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL2447,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL245,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL2458,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL2469,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2458,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2469,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL247,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL2470,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL2473,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL2473,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL248,review,0.0,0.0,0.0,0.0
 CHEMBL2487,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL2488,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL2488,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL249,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL2492,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL2496,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL250,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2492,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2496,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL250,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL251,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2514,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL252,review,0.0,0.0,0.0,0.0
-CHEMBL2522,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL2524,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL2525,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL2522,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2524,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2525,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL253,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2534,review,0.0,0.0,0.0,0.0
 CHEMBL2535,review,0.0,0.0,0.0,0.0
 CHEMBL2536,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL254,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL2543,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL254,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2543,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL255,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2553,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL256,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2560,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL2564,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL2564,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2567,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL2568,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL2569,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL2569,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2575,multifunctional enzyme,0.0,0.0,0.0,0.0
 CHEMBL258,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2581,review,0.0,0.0,0.0,0.0
 CHEMBL259,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL2590,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL2590,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2599,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL260,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL2608,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2608,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL261,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL2617,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL2618,exact data citation,0.0,0.0,0.0,0.0
@@ -457,15 +457,15 @@ CHEMBL2640,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL265,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL2652,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2659,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL2664,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL2664,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL267,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL2672,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL268,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL2680,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL2683,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL2689,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL2680,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2683,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2689,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL269,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL2693,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL2693,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2695,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL270,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2717,rounded data citation,0.0,0.0,0.0,0.0
@@ -474,21 +474,21 @@ CHEMBL2722,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2725,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL273,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL2730,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL2733,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL2733,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2734,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL274,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2742,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2745,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL2749,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL2749,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL275,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL2755,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL276,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL2760,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2755,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL276,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2760,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL277,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL2775,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL2775,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL278,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL2781,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL2782,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL2781,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2782,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2789,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL279,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL280,highly correlated assays,0.0,0.0,0.0,0.0
@@ -496,24 +496,24 @@ CHEMBL2803,shuffled assays,0.0,0.0,0.0,0.0
 CHEMBL2808,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL2815,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2820,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL2821,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2821,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2828,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL283,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2835,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL284,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2842,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL285,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL2850,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL2850,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2851,shuffled assays,0.0,0.0,0.0,0.0
 CHEMBL2855,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL2857,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL2858,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL2858,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL286,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL2863,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL2863,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2868,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL287,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2871,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL2872,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2872,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL288,review,0.0,0.0,0.0,0.0
 CHEMBL2880,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL2885,high citation rate,0.0,0.0,0.0,0.0
@@ -536,66 +536,66 @@ CHEMBL2967,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL2971,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL2973,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL298,review,0.0,0.0,0.0,0.0
-CHEMBL299,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL299,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL2993,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL2996,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL2998,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL300,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL2996,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL2998,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL300,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3004,review,0.0,0.0,0.0,0.0
 CHEMBL3009,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL301,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3019,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL301,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3019,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL302,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL3024,shuffled assays,0.0,0.0,0.0,0.0
 CHEMBL3025,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL3027,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL3032,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3032,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3037,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL304,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3041,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL3045,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL3048,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL3056,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3056,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3060,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3066,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL3067,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL3070,review,0.0,0.0,0.0,0.0
-CHEMBL3072,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL308,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL3081,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3072,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL308,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3081,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3085,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL3085619,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3085619,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3085622,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL309,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL3091268,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL3092,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL309,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3091268,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3092,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3099,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL310,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL310,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3100,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL3105,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL3106,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL3108632,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3108638,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3108632,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3108638,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3108639,review,0.0,0.0,0.0,0.0
 CHEMBL3108640,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL3108644,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL311,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL3112379,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3114,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL3112379,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3114,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3116,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL3117,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3117,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3119,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3120,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL313,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3130,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL3131,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3131,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3132741,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL3138,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3142,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3145,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL3151,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3151,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3155,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL3157,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL3157,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3160,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL317,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL3174,multifunctional enzyme,0.0,0.0,0.0,0.0
@@ -605,72 +605,72 @@ CHEMBL3180,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3181,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL3190,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL3192,shuffled assays,0.0,0.0,0.0,0.0
-CHEMBL3194,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL3197,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL3194,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3197,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3199,shuffled assays,0.0,0.0,0.0,0.0
-CHEMBL320,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL320,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3202,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL321,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL3213,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL3217390,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL3213,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3217390,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL322,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL3222,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL3222,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3223,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL3227,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL3227,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3229,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL3230,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL3231,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL3234,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL3234,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3237,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL3239,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3239,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL324,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL3242,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL325,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3252,shuffled assays,0.0,0.0,0.0,0.0
 CHEMBL3254,multifunctional enzyme,0.0,0.0,0.0,0.0
-CHEMBL3257,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL3259470,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL3257,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3259470,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3259471,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL3259478,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3259478,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3263,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL3267,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL3268,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL3272,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3278,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3268,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3272,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3278,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3286,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL3286061,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL3286061,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3286068,multifunctional enzyme,0.0,0.0,0.0,0.0
-CHEMBL3288,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3290,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3288,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3290,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3295,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL3298,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3298,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL330,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL3308911,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3308911,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3308912,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3308929,review,0.0,0.0,0.0,0.0
 CHEMBL3308969,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL3309098,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL331,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL3310,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3312,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL331,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3310,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3312,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3313,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL3313836,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL3314,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL3317334,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3317334,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3318,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL332,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL3321,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL332,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3321,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3326,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL3329078,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL333,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL3332,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL3332,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3341581,multifunctional enzyme,0.0,0.0,0.0,0.0
 CHEMBL3344,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3346,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL3349,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL335,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL335,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3351,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL3351204,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3351204,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3354,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL3356,multifunctional enzyme,0.0,0.0,0.0,0.0
 CHEMBL3358,multifunctional enzyme,0.0,0.0,0.0,0.0
@@ -682,57 +682,57 @@ CHEMBL3371,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL3372,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL3374,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL338,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL3383,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL3383,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL339,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL3390,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3390,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3392,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL3396943,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3396943,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3399911,multifunctional enzyme,0.0,0.0,0.0,0.0
-CHEMBL3407326,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3407328,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3407326,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3407328,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3414409,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3414411,shuffled assays,0.0,0.0,0.0,0.0
-CHEMBL3419,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL3419,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3426,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL3429,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL3429,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3436,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL3438,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL3438,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL344,shuffled assays,0.0,0.0,0.0,0.0
 CHEMBL3455,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL3457,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3457,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3463,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL3464,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3464,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3468,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL3471,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL3473,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL3474,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL3475,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3475,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3476,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL3492,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL3501,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL3492,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3501,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3503,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3504,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3510,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL3513,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL3513,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3514,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3522,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3524,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL3529,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL3535,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL3535,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3553,review,0.0,0.0,0.0,0.0
-CHEMBL3558,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL3558,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3559,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL3563,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL3564,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL3568,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL3571,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL3571,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3572,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL3575,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3577,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL3578,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3579,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL3575,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3577,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3578,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3579,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3580505,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL3582,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL3582,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3585,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3587,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3589,highly correlated assays,0.0,0.0,0.0,0.0
@@ -743,38 +743,38 @@ CHEMBL3597,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3602,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3607,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3608197,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL3611965,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3611965,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3614,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL3616354,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL3618,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3616354,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3618,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3621,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL3621020,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL3623,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL3623,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3629,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL3632452,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL3632454,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3632452,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3632454,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3636,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL3638324,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3649,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL3650,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL3655,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL3663,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3655,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3663,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3667,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL3668,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3668,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3674,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL3675,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL3686,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL3687,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL3687,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3691,review,0.0,0.0,0.0,0.0
 CHEMBL3699,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3700,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL3701,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3701,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3706,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL3708,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL3708265,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL3710,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3712907,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL3713355,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3713355,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3714029,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL3714079,review,0.0,0.0,0.0,0.0
 CHEMBL3714531,test Item with unknown chirality,0.0,0.0,0.0,0.0
@@ -783,20 +783,20 @@ CHEMBL3717,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL3719,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL3720,multifunctional enzyme,0.0,0.0,0.0,0.0
 CHEMBL3729,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL3733,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3733,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3744,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL3746,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL3753,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL3746,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3753,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3759,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL3762,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3762,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3764,review,0.0,0.0,0.0,0.0
-CHEMBL3766,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3766,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3768,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL3769,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL3769293,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL3772,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL3772,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3774295,review,0.0,0.0,0.0,0.0
-CHEMBL3775,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL3775,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3776,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL3778,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL3779754,highly correlated assays,0.0,0.0,0.0,0.0
@@ -805,58 +805,58 @@ CHEMBL3784,review,0.0,0.0,0.0,0.0
 CHEMBL3784911,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL3785,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL3788,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL3795,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3795,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3797,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3798,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL3799,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL3799,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3807,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL3813,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL3813,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3815,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL3816,shuffled assays,0.0,0.0,0.0,0.0
-CHEMBL3819,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3819,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3826863,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL3826870,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL3826871,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3835,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL3836,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3826870,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3826871,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3835,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3836,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3837,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3839,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3858,review,0.0,0.0,0.0,0.0
-CHEMBL3861,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3863,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3861,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3863,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3864,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL3869,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL3872,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3872,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3879,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL3879821,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL3879850,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL3879854,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3880,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3883,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3879850,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3879854,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3880,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3883,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3884,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL3885662,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL3886,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3891,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL3886,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3891,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3892,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL3893,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3898,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL3900,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3902,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3893,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3898,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3900,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3902,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3905,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3906,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL3910,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL3911,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3910,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3911,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3912,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL3913,review,0.0,0.0,0.0,0.0
-CHEMBL3920,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL3922,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL3920,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3922,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3923,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL3927,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL3932,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL3933,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL3942,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL3943,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3948,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL3943,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3948,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3949,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL3952,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL3959,rounded data citation,0.0,0.0,0.0,0.0
@@ -865,91 +865,91 @@ CHEMBL3969,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL3973,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL3974,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL3975,review,0.0,0.0,0.0,0.0
-CHEMBL3979,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3980,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL3981,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL3979,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3980,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL3981,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3983,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL3984,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL3987581,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL3991,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL3991501,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL3998,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL3998,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL3999,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL4005,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL401,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL4014,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL401,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4014,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4015,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL4016,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL4017,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4018,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL402,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL402,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4026,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL4029,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL4029,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4037,review,0.0,0.0,0.0,0.0
 CHEMBL4040,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4050,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL4051,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL4054,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4062,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4054,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4062,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4065,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL4068,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL4070,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4070,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4072,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4074,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4078,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL4079,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4079,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4080,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL4081,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4093,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL4096,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL4098,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4081,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4093,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4096,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4098,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4101,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL4102,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL4105758,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4105786,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4105787,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4105810,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4105832,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4105833,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4105838,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4105786,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4105787,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4105810,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4105832,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4105833,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4105838,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4105864,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL4105899,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4105899,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4105907,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL4105915,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL4105923,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL4105929,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL4105948,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4105966,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4105972,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL4105948,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4105966,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4105972,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4106,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL4108,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL4108,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4111,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL4123,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL4123,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4124,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL4128,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL4141,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4128,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4141,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4142,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL4150,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL4151,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL4153,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4158,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4162,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4163,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL4162,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4163,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4165,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL4179,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL4179,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4187,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4188,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL4190,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL4191,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL4198,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL4202,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4202,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4203,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4204,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL4208,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4220,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4225,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL4227,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4234,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL4208,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4220,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4225,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4227,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4234,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4235,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL4245,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL4247,high citation rate,0.0,0.0,0.0,0.0
@@ -962,18 +962,18 @@ CHEMBL4282,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4295,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4295521,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL4295598,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL4295666,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4295683,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4295666,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4295683,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4295701,review,0.0,0.0,0.0,0.0
 CHEMBL4295740,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL4295745,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4295828,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL4295828,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4295840,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL4295910,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL4295919,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL4295956,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4295974,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4295985,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL4295956,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4295974,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4295985,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4296,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL4296325,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL4296327,unicellular_organism,0.0,0.0,0.0,0.0
@@ -981,100 +981,100 @@ CHEMBL4302,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL4303,review,0.0,0.0,0.0,0.0
 CHEMBL4305,review,0.0,0.0,0.0,0.0
 CHEMBL4306,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL4308,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4315,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL4308,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4315,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4321,shuffled assays,0.0,0.0,0.0,0.0
 CHEMBL4323,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL4329,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL4333,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL4333,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4336,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4338,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4342,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL4342,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4343,multifunctional enzyme,0.0,0.0,0.0,0.0
 CHEMBL4349,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4354,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL4358,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL4358,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4360,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL4361,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL4370,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4370,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4372,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL4379,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL4383,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL4383,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4393,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4394,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL4398,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL4398,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4404,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL4409,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL4414,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL4415,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4415,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4420,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL4423,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4423,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4427,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL4429,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4430,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL4439,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4441,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL4444,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL4445,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL4445,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4461,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4462,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL4464,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4471,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL4464,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4471,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4477,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL4478,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL4481,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL4478,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4481,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4482,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL4484,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4497,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL4501,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4506,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4507,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL4484,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4497,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4501,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4506,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4507,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4513,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL4518,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4518,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4521,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL4523,shuffled assays,0.0,0.0,0.0,0.0
-CHEMBL4523125,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4523191,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4523125,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4523191,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4523370,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL4523375,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4523375,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4523386,review,0.0,0.0,0.0,0.0
 CHEMBL4523465,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4523509,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4523509,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4523517,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL4523582,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL4523952,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL4525,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4527,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4530,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4531,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4525,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4527,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4530,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4531,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4540,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL4550,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL4552,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL4556,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL4561,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL4578,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4580,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4561,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4578,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4580,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4581,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL4586,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4596,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4598,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4599,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL4586,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4596,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4598,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4599,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4600,shuffled assays,0.0,0.0,0.0,0.0
-CHEMBL4601,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4601,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4608,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL4616,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL4617,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4618,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL4618,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4619,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL4625,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL4630,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL4630,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4632,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL4633,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL4633,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4641,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4644,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL4647,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4649,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL4653,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL4653,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4657,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL4662,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL4676,exact data citation,0.0,0.0,0.0,0.0
@@ -1084,200 +1084,200 @@ CHEMBL4685,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL4687,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL4691,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL4693,review,0.0,0.0,0.0,0.0
-CHEMBL4696,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL4696,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4698,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL4699,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL4699,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4701,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL4708,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4708,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4713,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL4722,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL4726,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL4730,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4756,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL4730,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4756,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4761,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL4766,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4766,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4767,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL4768,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4769,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL4772,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL4774,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL4774,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4777,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL4780,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4789,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL4791,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL4791,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4792,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4793,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL4794,review,0.0,0.0,0.0,0.0
-CHEMBL4801,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4802015,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4801,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4802015,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4803,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL4804,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL4804,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4805,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL4807,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL4810,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4810,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4813,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL4814,review,0.0,0.0,0.0,0.0
-CHEMBL4816,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4816,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4822,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL4828,shuffled assays,0.0,0.0,0.0,0.0
-CHEMBL4829,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL4829,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4833,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL4835,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL4860,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL4867,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL4877,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL4860,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4867,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4877,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4878,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4879439,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4879439,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4894,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4895,review,0.0,0.0,0.0,0.0
-CHEMBL4897,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4898,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4899,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL4897,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4898,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4899,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4903,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL4909,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4909,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4919,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL4924,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL4937,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4937,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4940,review,0.0,0.0,0.0,0.0
-CHEMBL4941,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL4941,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4956,review,0.0,0.0,0.0,0.0
-CHEMBL4959,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL4959,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4970,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL4973,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL4975,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL4973,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL4975,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL4977,review,0.0,0.0,0.0,0.0
 CHEMBL4979,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL4980,review,0.0,0.0,0.0,0.0
 CHEMBL4981,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL5010,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL5011,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL5011,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5014,shuffled assays,0.0,0.0,0.0,0.0
 CHEMBL5017,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL5021,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5021,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5023,review,0.0,0.0,0.0,0.0
 CHEMBL5024,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL5026,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5026,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5028,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL5032,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL5036,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL5043,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL5048,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL5062,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5048,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5062,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5064,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL5071,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL5073,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL5076,multiply activity for same test item,0.0,0.0,0.0,0.0
+CHEMBL5073,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5076,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5077,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL5080,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL5080,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5083,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL5101,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5101,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5102,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL5103,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL5107,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL5113,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL5118,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL5122,review,0.0,0.0,0.0,0.0
-CHEMBL5124,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5124,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5129,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL5131,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL5135,review,0.0,0.0,0.0,0.0
-CHEMBL5137,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL5137,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5141,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL5145,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL5147,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL5150,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL5160,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL5162,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL5147,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5150,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5160,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5162,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5163,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL5174,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL5175,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL5183,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5174,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5175,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5183,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5189,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL5192,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL5200,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL5202,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5200,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5202,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5203,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL5205,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5205,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5246,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL5250,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5250,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5251,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL5255,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5255,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5260,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL5262,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL5270,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL5282,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL5284,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5282,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5284,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5285,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL5288,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL5293,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL5306,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL5311,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL5314,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5293,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5306,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5311,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5314,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5319,review,0.0,0.0,0.0,0.0
 CHEMBL5328,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL5331,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL5331,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5332,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL5335,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL5347,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5347,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5362,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL5365,review,0.0,0.0,0.0,0.0
 CHEMBL5366,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL5373,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL5375,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL5387,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5387,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5393,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL5394,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL5396,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL5399,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL5402,review,0.0,0.0,0.0,0.0
-CHEMBL5403,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL5406,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL5403,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5406,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5407,shuffled assays,0.0,0.0,0.0,0.0
-CHEMBL5408,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL5408,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5412,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL5413,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL5419,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL5424,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL5432,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL5435,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5424,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5432,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5435,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5440,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL5443,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL5444,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5443,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5444,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5445,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL5451,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL5452,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL5462,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL5463,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5463,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5464,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL5469,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL5479,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5469,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5479,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5485,rounded data citation,0.0,0.0,0.0,0.0
 CHEMBL5491,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL5493,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5493,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5498,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL5500,review,0.0,0.0,0.0,0.0
-CHEMBL5503,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL5508,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL5518,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL5522,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL5523,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL5524,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5503,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5508,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5518,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5522,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5523,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5524,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5543,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL5545,review,0.0,0.0,0.0,0.0
-CHEMBL5553,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5553,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5555,shuffled assays,0.0,0.0,0.0,0.0
-CHEMBL5556,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5556,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5558,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL5566,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL5567,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL5566,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5567,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5568,review,0.0,0.0,0.0,0.0
 CHEMBL5586,multifunctional enzyme,0.0,0.0,0.0,0.0
-CHEMBL5602,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5602,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5608,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL5619,review,0.0,0.0,0.0,0.0
 CHEMBL5620,review,0.0,0.0,0.0,0.0
 CHEMBL5636,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL5645,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5645,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5648,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL5652,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL5656,review,0.0,0.0,0.0,0.0
@@ -1286,13 +1286,13 @@ CHEMBL5658,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL5669,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL5672,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL5686,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL5695,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5695,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5697,review,0.0,0.0,0.0,0.0
-CHEMBL5700,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL5700,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5704,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL5719,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL5724,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL5726,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL5724,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5726,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5727,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL5731,review,0.0,0.0,0.0,0.0
 CHEMBL5742,shuffled assays,0.0,0.0,0.0,0.0
@@ -1305,56 +1305,56 @@ CHEMBL5786,multiply activity for same test item,0.0,0.0,0.0,0.0
 CHEMBL5799,review,0.0,0.0,0.0,0.0
 CHEMBL5800,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL5801,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL5804,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL5804,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5805,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL5812,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL5815,review,0.0,0.0,0.0,0.0
 CHEMBL5845,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL5852,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL5852,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5853,multifunctional enzyme,0.0,0.0,0.0,0.0
 CHEMBL5862,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL5869,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL5870,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL5869,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5870,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5871,multiply activity for same test item,0.0,0.0,0.0,0.0
-CHEMBL5872,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5872,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5873,review,0.0,0.0,0.0,0.0
-CHEMBL5877,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5877,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5879,multifunctional enzyme,0.0,0.0,0.0,0.0
-CHEMBL5888,test Item with unknown chirality,0.0,0.0,0.0,0.0
-CHEMBL5891,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL5888,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5891,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5896,review,0.0,0.0,0.0,0.0
-CHEMBL5903,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL5903,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5905,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL5921,shuffled assays,0.0,0.0,0.0,0.0
 CHEMBL5925,high citation rate,0.0,0.0,0.0,0.0
 CHEMBL5926,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL5932,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5932,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5936,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL5938,test Item with unknown chirality,0.0,0.0,0.0,0.0
+CHEMBL5938,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5939,exact data citation,0.0,0.0,0.0,0.0
-CHEMBL5951,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
-CHEMBL5952,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5951,signlton (highly correlated assays),0.0,0.0,0.0,0.0
+CHEMBL5952,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5957,review,0.0,0.0,0.0,0.0
 CHEMBL5963,review,0.0,0.0,0.0,0.0
 CHEMBL5971,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL5979,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL5979,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL5983,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL6006,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL6006,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL6007,review,0.0,0.0,0.0,0.0
 CHEMBL6009,exact data citation,0.0,0.0,0.0,0.0
 CHEMBL6017,unicellular_organism,0.0,0.0,0.0,0.0
-CHEMBL6030,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL6030,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL6031,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL6032,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL6035,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL6035,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL6052,test Item with unknown chirality,0.0,0.0,0.0,0.0
 CHEMBL6060,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL6069,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL6080,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL6094,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL6095,exact data citation,0.0,0.0,0.0,0.0
+CHEMBL6095,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL6120,rounded data citation,0.0,0.0,0.0,0.0
-CHEMBL6126,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL6126,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL6129,multifunctional enzyme,0.0,0.0,0.0,0.0
 CHEMBL6135,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL6136,review,0.0,0.0,0.0,0.0
@@ -1364,10 +1364,10 @@ CHEMBL6142,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL6145,unicellular_organism,0.0,0.0,0.0,0.0
 CHEMBL6152,review,0.0,0.0,0.0,0.0
 CHEMBL6154,highly correlated assays,0.0,0.0,0.0,0.0
-CHEMBL6158,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL6158,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL6164,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL6166,high citation rate,0.0,0.0,0.0,0.0
-CHEMBL6168,incorrect association in ChEMBL,0.0,0.0,0.0,0.0
+CHEMBL6168,signlton (highly correlated assays),0.0,0.0,0.0,0.0
 CHEMBL6175,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL6184,highly correlated assays,0.0,0.0,0.0,0.0
 CHEMBL6198,unicellular_organism,0.0,0.0,0.0,0.0

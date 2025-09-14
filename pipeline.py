@@ -122,7 +122,7 @@ def initialize_status(
         if valid:
             return status.get_min(valid)
         if empty_fallback.upper() == "GLOBAL_MIN":
-            return status.status_list[0]
+            return status.status_list[21]
         raise ValueError("no active status flags")
 
     df[Cols.FILTERED_INIT] = df.apply(_compute, axis=1)
