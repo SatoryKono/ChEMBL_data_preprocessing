@@ -6896,12 +6896,12 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 1453949,no_issue,0,1,0,0
 1453951,no_issue,0,1,0,0
 1453952,no_issue,0,1,0,0
-1454288,multiply activity for same test item,0,1,0,0
-1454293,multiply activity for same test item,0,1,0,0
-1454295,multiply activity for same test item,0,1,0,0
+1454288,multifunctional enzyme,0,1,0,0
+1454293,multifunctional enzyme,0,1,0,0
+1454295,multifunctional enzyme,0,1,0,0
 1454739,unicellular_organism,0,0,0,1
 1454740,unicellular_organism,0,0,0,1
-1454832,rounded data citation,0,1,0,0
+1454832,signlton (review),0,1,0,0
 1455125,multiply activity for same test item,0,1,0,0
 1455126,multiply activity for same test item,0,1,0,0
 1455132,multiply activity for same test item,0,1,0,0
@@ -37163,7 +37163,7 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 7946579,no_issue,0,0,0,1
 7947299,test Item with unknown chirality,0,1,0,0
 7947300,test Item with unknown chirality,0,1,0,0
-7949312,rounded data citation,0,2,0,0
+7949312,multifunctional enzyme,0,1,0,0
 7949313,no_issue,0,1,0,0
 7949314,no_issue,0,1,0,0
 7949315,no_issue,0,1,0,0
@@ -37204,7 +37204,7 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 7949350,exact data citation,0,1,0,0
 7949351,no_issue,0,1,0,0
 7949352,no_issue,0,1,0,0
-7949353,test Item with unknown chirality,0,1,0,0
+7949353,multifunctional enzyme,0,1,0,0
 7949354,no_issue,0,1,0,0
 7949355,no_issue,0,1,0,0
 7949356,no_issue,0,1,0,0
@@ -37251,10 +37251,10 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 7949397,no_issue,0,2,0,0
 7949398,no_issue,0,1,0,0
 7949399,no_issue,0,1,0,0
-7949400,test Item with unknown chirality,0,1,0,0
+7949400,multifunctional enzyme,0,1,0,0
 7949401,no_issue,0,1,0,0
 7949402,no_issue,0,1,0,0
-7949403,test Item with unknown chirality,0,1,0,0
+7949403,multifunctional enzyme,0,1,0,0
 7949404,no_issue,0,3,0,0
 7949405,no_issue,0,1,0,0
 7949406,no_issue,0,1,0,0
@@ -37277,7 +37277,7 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 7950070,no_issue,0,2,0,0
 7950071,no_issue,0,1,0,0
 7950074,no_issue,0,1,0,0
-7950076,test Item with unknown chirality,0,1,0,0
+7950076,multifunctional enzyme,0,1,0,0
 7950077,no_issue,0,3,0,0
 7950078,no_issue,0,1,0,0
 7950079,no_issue,0,3,0,0
@@ -37321,7 +37321,7 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 7950117,no_issue,0,2,0,0
 7950118,no_issue,0,1,0,0
 7950119,no_issue,0,1,0,0
-7950120,test Item with unknown chirality,0,1,0,0
+7950120,multifunctional enzyme,0,1,0,0
 7950121,no_issue,0,1,0,0
 7950122,no_issue,0,1,0,0
 7950139,no_issue,0,1,0,0
@@ -37330,7 +37330,7 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 7950142,no_issue,0,2,0,0
 7950143,no_issue,0,1,0,0
 7950144,no_issue,0,2,0,0
-7950145,exact data citation,0,1,0,0
+7950145,signlton (review),0,2,0,0
 7950146,no_issue,0,2,0,0
 7950147,no_issue,0,1,0,0
 7950148,exact data citation,0,1,0,0
@@ -39256,10 +39256,10 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 8056983,exact data citation,0,0,0,1
 8057243,test Item with unknown chirality,0,1,0,0
 8057244,test Item with unknown chirality,0,1,0,0
-8057246,test Item with unknown chirality,0,1,0,0
+8057246,multifunctional enzyme,0,1,0,0
 8057257,test Item with unknown chirality,0,1,0,0
 8057258,test Item with unknown chirality,0,1,0,0
-8057260,test Item with unknown chirality,0,1,0,0
+8057260,multifunctional enzyme,0,1,0,0
 8059562,unicellular_organism,0,1,0,0
 8059563,exact data citation,0,1,0,0
 8059564,no_issue,0,2,0,0
@@ -40529,8 +40529,8 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 10895888,no_issue,0,1,0,0
 10895889,no_issue,0,1,0,0
 10895890,no_issue,0,1,0,0
-10895894,test Item with unknown chirality,0,1,0,0
-10895895,test Item with unknown chirality,0,1,0,0
+10895894,multifunctional enzyme,0,1,0,0
+10895895,multifunctional enzyme,0,1,0,0
 10895896,no_issue,0,1,0,0
 10895897,no_issue,0,1,0,0
 10895898,no_issue,0,1,0,0
@@ -40565,8 +40565,8 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 10895930,no_issue,0,1,0,0
 10895931,no_issue,0,1,0,0
 10895932,no_issue,0,1,0,0
-10895936,test Item with unknown chirality,0,1,0,0
-10895937,test Item with unknown chirality,0,1,0,0
+10895936,multifunctional enzyme,0,1,0,0
+10895937,multifunctional enzyme,0,1,0,0
 10895938,no_issue,0,1,0,0
 10895939,no_issue,0,1,0,0
 10895940,no_issue,0,1,0,0
@@ -45017,8 +45017,8 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 12644664,no_issue,0,1,0,0
 12644665,no_issue,0,1,0,0
 12644666,no_issue,0,1,0,0
-12645430,review,0,1,0,0
-12645431,review,0,1,0,0
+12645430,multifunctional enzyme,0,1,0,0
+12645431,multifunctional enzyme,0,1,0,0
 12645492,multiply activity for same test item,0,1,0,0
 12645493,multiply activity for same test item,0,1,0,0
 12645496,rounded data citation,0,1,0,0
@@ -47289,8 +47289,8 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 13326991,highly correlated assays,0,2,0,0
 13326992,exact data citation,0,1,0,0
 13327831,highly correlated assays,0,2,0,0
-13328424,review,0,1,0,0
-13328433,review,0,1,0,0
+13328424,multifunctional enzyme,0,1,0,0
+13328433,multifunctional enzyme,0,1,0,0
 13331464,exact data citation,0,1,0,0
 13331465,unicellular_organism,0,1,0,0
 13331911,exact data citation,0,1,0,0
@@ -53756,10 +53756,10 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 14679763,multifunctional enzyme,0,0,0,1
 14679764,multifunctional enzyme,0,0,0,1
 14679765,multifunctional enzyme,0,0,0,1
-14683737,test Item with unknown chirality,0,1,0,0
-14683738,test Item with unknown chirality,0,1,0,0
-14683739,test Item with unknown chirality,0,1,0,0
-14683740,test Item with unknown chirality,0,1,0,0
+14683737,multifunctional enzyme,0,1,0,0
+14683738,multifunctional enzyme,0,1,0,0
+14683739,multifunctional enzyme,0,1,0,0
+14683740,multifunctional enzyme,0,1,0,0
 14683742,test Item with unknown chirality,0,1,0,0
 14683743,test Item with unknown chirality,0,1,0,0
 14683744,test Item with unknown chirality,0,1,0,0
@@ -59342,7 +59342,7 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 15222753,no_issue,0,1,0,0
 15222754,no_issue,0,1,0,0
 15222755,no_issue,0,1,0,0
-15222757,test Item with unknown chirality,0,1,0,0
+15222757,multifunctional enzyme,0,1,0,0
 15222758,no_issue,0,1,0,0
 15222759,no_issue,0,1,0,0
 15222760,no_issue,0,1,0,0
@@ -59353,8 +59353,8 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 15222765,no_issue,0,1,0,0
 15222766,no_issue,0,1,0,0
 15222767,no_issue,0,1,0,0
-15222768,test Item with unknown chirality,0,1,0,0
-15222769,test Item with unknown chirality,0,1,0,0
+15222768,multifunctional enzyme,0,1,0,0
+15222769,multifunctional enzyme,0,1,0,0
 15222770,no_issue,0,1,0,0
 15222771,no_issue,0,1,0,0
 15222772,no_issue,0,1,0,0
@@ -59400,8 +59400,8 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 15222819,no_issue,0,1,0,0
 15222820,no_issue,0,1,0,0
 15222821,no_issue,0,1,0,0
-15222822,test Item with unknown chirality,0,1,0,0
-15222823,test Item with unknown chirality,0,1,0,0
+15222822,multifunctional enzyme,0,1,0,0
+15222823,multifunctional enzyme,0,1,0,0
 15222824,no_issue,0,1,0,0
 15222825,no_issue,0,1,0,0
 15222826,no_issue,0,1,0,0
@@ -59412,7 +59412,7 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 15222831,no_issue,0,1,0,0
 15222832,no_issue,0,1,0,0
 15222833,no_issue,0,1,0,0
-15222834,test Item with unknown chirality,0,1,0,0
+15222834,multifunctional enzyme,0,1,0,0
 15222836,no_issue,0,1,0,0
 15222837,no_issue,0,1,0,0
 15223486,no_issue,0,1,0,0
@@ -63381,8 +63381,8 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 16421006,no_issue,0,2,0,0
 16421008,rounded data citation,0,1,0,0
 16421009,no_issue,0,2,0,0
-16421292,multiply activity for same test item,0,0,0,1
-16421342,multiply activity for same test item,0,0,0,1
+16421292,multifunctional enzyme,0,0,0,1
+16421342,multifunctional enzyme,0,0,0,1
 16422495,no_issue,0,1,0,0
 16422865,highly correlated assays,0,1,0,0
 16422866,highly correlated assays,0,1,0,0
@@ -68333,10 +68333,10 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 16786826,no_issue,0,1,0,0
 16786829,no_issue,0,1,0,0
 16786870,no_issue,0,1,0,0
-16788759,test Item with unknown chirality,0,1,0,0
-16788762,test Item with unknown chirality,0,1,0,0
-16788763,test Item with unknown chirality,0,1,0,0
-16788764,test Item with unknown chirality,0,1,0,0
+16788759,multifunctional enzyme,0,1,0,0
+16788762,multifunctional enzyme,0,1,0,0
+16788763,multifunctional enzyme,0,1,0,0
+16788764,multifunctional enzyme,0,1,0,0
 16791946,exact data citation,0,1,0,0
 16791947,exact data citation,0,1,0,0
 16791948,highly correlated assays,0,1,0,0
@@ -70269,8 +70269,8 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 18033352,highly correlated assays,0,1,0,0
 18033353,highly correlated assays,0,1,0,0
 18033354,highly correlated assays,0,1,0,0
-18033960,review,0,1,0,0
-18033961,review,0,1,0,0
+18033960,multifunctional enzyme,0,1,0,0
+18033961,multifunctional enzyme,0,1,0,0
 18034156,no_issue,0,1,0,0
 18034162,no_issue,0,1,0,0
 18034163,no_issue,0,1,0,0
@@ -76729,8 +76729,8 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 18449233,highly correlated assays,0,1,0,0
 18449234,highly correlated assays,0,1,0,0
 18449235,highly correlated assays,0,1,0,0
-18449719,test Item with unknown chirality,0,1,0,0
-18449722,test Item with unknown chirality,0,1,0,0
+18449719,multifunctional enzyme,0,1,0,0
+18449722,multifunctional enzyme,0,1,0,0
 18450143,no_issue,0,1,0,0
 18450145,no_issue,0,1,0,0
 18450225,no_issue,0,1,0,0
@@ -79672,8 +79672,8 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 18656434,no_issue,0,1,0,0
 18656465,no_issue,0,1,0,0
 18656466,no_issue,0,1,0,0
-18658468,test Item with unknown chirality,0,1,0,0
-18658569,test Item with unknown chirality,0,1,0,0
+18658468,multifunctional enzyme,0,1,0,0
+18658569,multifunctional enzyme,0,1,0,0
 18662113,review,0,1,0,0
 18662114,review,0,1,0,0
 18662115,review,0,1,0,0
@@ -80662,14 +80662,14 @@ activity_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independen
 18741541,test Item with unknown chirality,0,0,0,1
 18741542,test Item with unknown chirality,0,0,0,1
 18741543,test Item with unknown chirality,0,0,0,1
-18741544,test Item with unknown chirality,0,0,0,1
-18741547,test Item with unknown chirality,0,0,0,1
-18741548,test Item with unknown chirality,0,0,0,1
-18741549,test Item with unknown chirality,0,0,0,1
-18741550,test Item with unknown chirality,0,0,0,1
-18741551,test Item with unknown chirality,0,0,0,1
-18741552,test Item with unknown chirality,0,0,0,1
-18741553,test Item with unknown chirality,0,0,0,1
+18741544,multifunctional enzyme,0,0,0,1
+18741547,multifunctional enzyme,0,0,0,1
+18741548,multifunctional enzyme,0,0,0,1
+18741549,multifunctional enzyme,0,0,0,1
+18741550,multifunctional enzyme,0,0,0,1
+18741551,multifunctional enzyme,0,0,0,1
+18741552,multifunctional enzyme,0,0,0,1
+18741553,multifunctional enzyme,0,0,0,1
 18742703,no_issue,0,1,0,0
 18742704,no_issue,0,1,0,0
 18742705,no_issue,0,1,0,0
