@@ -23,6 +23,7 @@ import pandas as pd
 
 from constants import Cols
 from pipeline import (
+    activity_from_pairs,
     aggregate_entities,
     initialize_pairs,
     initialize_status,
@@ -40,6 +41,11 @@ def classify_directory(
     log_level: str = "INFO",
 ) -> None:
     """Classify activity data located in ``input_dir``.
+
+    The classification pipeline writes intermediate tables
+    ``InitializeStatus.csv``, ``InitializePairs.csv`` and the new
+    ``ActivityInitializeStatus.csv`` before aggregating entities such as
+    activities, assays or documents.
 
     Parameters
     ----------
@@ -90,8 +96,18 @@ def classify_directory(
     ).reset_index(drop=True)
     write_csv_with_meta(pairs_sorted, output_dir / "InitializePairs.csv", inputs, "1.0")
 
+    # Derive activity-level table from pairs to avoid recomputation downstream
+    act_pairs = activity_from_pairs(pairs_init, activities_init, utils)
+    act_pairs_sorted = act_pairs.sort_values(Cols.ACTIVITY_ID).reset_index(drop=True)
+    write_csv_with_meta(
+        act_pairs_sorted,
+        output_dir / "ActivityInitializeStatus.csv",
+        inputs,
+        "1.0",
+    )
+
     # Aggregate to all required entity levels
-    entities = aggregate_entities(pairs_init, activities_init, utils)
+    entities = aggregate_entities(pairs_init, activities_init, utils, act_pairs)
 
     # Map from entity name to primary sort key column
     sort_keys = {

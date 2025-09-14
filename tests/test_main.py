@@ -24,3 +24,6 @@ def test_classify_directory(tmp_path: Path) -> None:
 
     init_pairs = pd.read_csv(tmp_path / "InitializePairs.csv")
     assert {"Filtered1", "Filtered2"}.issubset(init_pairs.columns)
+
+    act_pairs = pd.read_csv(tmp_path / "ActivityInitializeStatus.csv")
+    assert "Filtered.new" in act_pairs.columns

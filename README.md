@@ -13,8 +13,10 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python classify.py --config config.yaml
+python main.py --input input/same_document --output output
 ```
 
-Outputs are written into the directory configured under
-`io.output_dir`.
+The command generates intermediate tables `InitializeStatus.csv`,
+`InitializePairs.csv` and `ActivityInitializeStatus.csv` alongside the
+aggregated entity tables (e.g. `activity.csv`, `assay.csv`). Outputs are
+written into the directory given via `--output`.

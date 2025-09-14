@@ -215,11 +215,9 @@ def _aggregate(df: pd.DataFrame, group_col: str, status: StatusAPI) -> pd.DataFr
     )
 
 
-
 def activity_from_pairs(
     pairs: pd.DataFrame, init_status: pd.DataFrame, status: StatusAPI
 ) -> pd.DataFrame:
-
     """Return a unified activity table built from *pairs*.
 
     The input ``pairs`` table may originate from different preprocessing
@@ -347,11 +345,29 @@ def activity_from_pairs(
 
 
 def aggregate_entities(
-    pair_table: pd.DataFrame, activity_table: pd.DataFrame, status: StatusAPI
+    pair_table: pd.DataFrame,
+    activity_table: pd.DataFrame,
+    status: StatusAPI,
+    act_pairs: pd.DataFrame | None = None,
 ) -> Dict[str, pd.DataFrame]:
-    """Return aggregated tables for all required entities."""
+    """Return aggregated tables for all required entities.
 
-    act_pairs = activity_from_pairs(pair_table, activity_table, status)
+    Parameters
+    ----------
+    pair_table:
+        Pairwise activity table produced by :func:`initialize_pairs`.
+    activity_table:
+        Activity table with initial status information.
+    status:
+        :class:`StatusAPI` instance used for status comparisons.
+    act_pairs:
+        Optional precomputed table returned by :func:`activity_from_pairs`.
+        Providing this avoids recomputing the table when it is already
+        available.
+    """
+
+    if act_pairs is None:
+        act_pairs = activity_from_pairs(pair_table, activity_table, status)
     activity = _aggregate(act_pairs, Cols.ACTIVITY_ID, status)
 
     act_df = activity_table.rename(columns={Cols.FILTERED_INIT: Cols.FILTERED})
