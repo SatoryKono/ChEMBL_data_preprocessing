@@ -215,7 +215,11 @@ def _aggregate(df: pd.DataFrame, group_col: str, status: StatusAPI) -> pd.DataFr
     )
 
 
-def activity_from_pairs(pairs: pd.DataFrame, init_status: pd.DataFrame) -> pd.DataFrame:
+
+def activity_from_pairs(
+    pairs: pd.DataFrame, init_status: pd.DataFrame, status: StatusAPI
+) -> pd.DataFrame:
+
     """Return a unified activity table built from *pairs*.
 
     The input ``pairs`` table may originate from different preprocessing
@@ -223,7 +227,10 @@ def activity_from_pairs(pairs: pd.DataFrame, init_status: pd.DataFrame) -> pd.Da
     ``molecule_chembl_id`` or ``standard_type`` instead of the canonical
     :data:`Cols.TESTITEM_ID` and :data:`Cols.MEASUREMENT_TYPE`.  This helper
     normalises such variations before aggregating the activity information and
-    finally merges the result with the ``InitializeStatus`` table.
+    finally merges the result with the ``InitializeStatus`` table.  After the
+    merge the ``Filtered`` status is updated based on the initial status in
+    ``Filtered.init`` and the pair-derived ``Filtered.new`` column.
+
 
     Parameters
     ----------
@@ -232,12 +239,19 @@ def activity_from_pairs(pairs: pd.DataFrame, init_status: pd.DataFrame) -> pd.Da
     init_status:
         Initialise status dataframe with ``Filtered.init`` and other metadata.
 
+    status:
+        :class:`StatusAPI` instance providing order comparisons and next
+        status lookups.
+
+
     Returns
     -------
     pandas.DataFrame
         Deduplicated list of activities merged with ``InitializeStatus`` and
         containing the minimal set of columns required for later aggregation
-        steps.
+        steps.  The table includes ``Filtered.init``, ``Filtered.new`` and the
+        final ``Filtered`` value.
+
     """
 
     # ``pairs`` may lack canonical column names when sourced from older
@@ -309,6 +323,26 @@ def activity_from_pairs(pairs: pd.DataFrame, init_status: pd.DataFrame) -> pd.Da
     ]
     status_cols = init_status.drop(columns=drop_cols, errors="ignore")
     merged = unified.merge(status_cols, on=Cols.ACTIVITY_ID, how="left")
+
+    # The pair table encodes the newly computed status in ``Filtered``.  For
+    # clarity rename it to ``Filtered.new`` and derive the final ``Filtered``
+    # value using the global ordering rules.  The logic mirrors the Power Query
+    # implementation referenced in the original pipeline.
+    merged = merged.rename(columns={Cols.FILTERED: Cols.FILTERED_NEW})
+
+    def _resolve_status(row: pd.Series) -> str:
+        init = row.get(Cols.FILTERED_INIT)
+        new = row.get(Cols.FILTERED_NEW)
+        if init == new:
+            return str(new)
+        cmp = status.ascending(str(init), str(new))
+        if cmp == 1:
+            return status.next(str(new))
+        if cmp == 0:
+            return str(new)
+        return "Error"
+
+    merged[Cols.FILTERED] = merged.apply(_resolve_status, axis=1)
     return merged
 
 
@@ -317,7 +351,7 @@ def aggregate_entities(
 ) -> Dict[str, pd.DataFrame]:
     """Return aggregated tables for all required entities."""
 
-    act_pairs = activity_from_pairs(pair_table, activity_table)
+    act_pairs = activity_from_pairs(pair_table, activity_table, status)
     activity = _aggregate(act_pairs, Cols.ACTIVITY_ID, status)
 
     act_df = activity_table.rename(columns={Cols.FILTERED_INIT: Cols.FILTERED})
