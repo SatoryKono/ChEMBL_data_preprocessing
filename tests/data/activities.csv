@@ -1,3 +1,3 @@
-activity_chembl_id,assay_chembl_id,document_chembl_id,testitem_chembl_id,target_chembl_id,mesurement_type,independent_IC50,non_independent_IC50,independent_Ki,non_independent_Ki,high_citation_rate,unicellular_organism,review,rounded_data_citation,shuffled_assay,higly_correlated_assay,exact_data_citation,multmol_assay,multifunctional_enzyme,unknown_chirality
+activity_chembl_id,assay_chembl_id,document_chembl_id,molecule_chembl_id,target_chembl_id,standard_type,independent_IC50,non_independent_IC50,independent_Ki,non_independent_Ki,high_citation_rate,unicellular_organism,review,rounded_data_citation,shuffled_assay,higly_correlated_assay,exact_data_citation,multmol_assay,multifunctional_enzyme,unknown_chirality
 a1,ass1,doc1,t1,tar1,type1,1,,2,,True,False,False,False,False,False,False,False,False,False
 a2,ass1,doc1,t1,tar1,type1,,3,,4,False,False,False,False,False,False,False,False,False,False

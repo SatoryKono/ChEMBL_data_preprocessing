@@ -56,9 +56,7 @@ def test_pairs_and_aggregates():
     )
     testitem = entities["testitem"]
     assert (
-        testitem.loc[
-            testitem["testitem_chembl_id"] == "t1", "non_independent_IC50"
-        ].iat[0]
+        testitem.loc[testitem[Cols.TESTITEM_ID] == "t1", "non_independent_IC50"].iat[0]
         == 3
     )
     target = entities["target"]
