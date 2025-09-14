@@ -1,4 +1,5 @@
 """Command line interface for the classification pipeline."""
+
 from __future__ import annotations
 
 import argparse

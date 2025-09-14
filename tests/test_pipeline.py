@@ -6,7 +6,6 @@ import pandas as pd
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
 from pipeline import aggregate_entities, initialize_pairs, initialize_status
-from constants import Cols
 from status_utils import StatusUtils
 
 
@@ -67,7 +66,6 @@ def test_pairs_and_aggregates():
     )
 
 
-
 def test_pairs_with_legacy_columns() -> None:
     """``aggregate_entities`` handles pairs with legacy column names."""
     status, activities, pairs = load_data()
@@ -86,3 +84,21 @@ def test_pairs_with_legacy_columns() -> None:
         == 1
     )
 
+
+def test_activities_with_legacy_columns() -> None:
+    """``initialize_status`` accepts activities with legacy column names."""
+    status, activities, pairs = load_data()
+    legacy_act = activities.rename(
+        columns={
+            "testitem_chembl_id": "test_item.id",
+            "mesurement_type": "measurement_type",
+        }
+    )
+    init_act = initialize_status(legacy_act, status, "GLOBAL_MIN")
+    init_pairs = initialize_pairs(pairs, init_act, status)
+    # ``aggregate_entities`` should succeed using the normalised columns
+    entities = aggregate_entities(init_pairs, init_act, status)
+    system = entities["system"]
+    assert (
+        system.loc[system["system_id"] == "t1_tar1_type1", "independent_Ki"].iat[0] == 2
+    )
