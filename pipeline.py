@@ -1,4 +1,5 @@
 """Data processing pipeline for activity classifications."""
+
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -41,7 +42,7 @@ class Config:
 def load_csv(path: Path, dtype: Optional[Dict[str, str]] = None) -> pd.DataFrame:
     """Load a CSV file using UTF-8 encoding."""
 
-    return pd.read_csv(path, dtype=dtype)
+    return pd.read_csv(path, dtype=dtype)  # type: ignore[arg-type]
 
 
 def initialize_status(

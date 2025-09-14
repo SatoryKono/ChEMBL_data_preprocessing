@@ -23,8 +23,8 @@ def load_data():
 def test_initialize_status():
     status, activities, _ = load_data()
     init = initialize_status(activities, status, "GLOBAL_MIN")
-    assert init.loc[init["activity_id"] == "a1", "Filtered.init"].iat[0] == "S1"
-    assert init.loc[init["activity_id"] == "a2", "Filtered.init"].iat[0] == "S1"
+    assert init.loc[init["activity_chembl_id"] == "a1", "Filtered.init"].iat[0] == "S1"
+    assert init.loc[init["activity_chembl_id"] == "a2", "Filtered.init"].iat[0] == "S1"
     assert init["no_issue"].tolist() == [False, True]
 
 
@@ -36,12 +36,17 @@ def test_pairs_and_aggregates():
 
     entities = aggregate_entities(init_pairs, init_act, status)
     activity = entities["activity"]
-    assert activity.loc[activity["activity_id"] == "a1", "independent_IC50"].iat[0] == 1
+    assert (
+        activity.loc[activity["activity_chembl_id"] == "a1", "independent_IC50"].iat[0]
+        == 1
+    )
     assay = entities["assay"]
-    assert assay.loc[assay["assay_id"] == "ass1", "Filtered.new"].iat[0] == "S1"
+    assert assay.loc[assay["assay_chembl_id"] == "ass1", "Filtered.new"].iat[0] == "S1"
     document = entities["document"]
     assert (
-        document.loc[document["document_id"] == "doc1", "non_independent_Ki"].iat[0]
+        document.loc[
+            document["document_chembl_id"] == "doc1", "non_independent_Ki"
+        ].iat[0]
         == 4
     )
     system = entities["system"]
@@ -50,8 +55,12 @@ def test_pairs_and_aggregates():
     )
     testitem = entities["testitem"]
     assert (
-        testitem.loc[testitem["testitem_id"] == "t1", "non_independent_IC50"].iat[0]
+        testitem.loc[
+            testitem["testitem_chembl_id"] == "t1", "non_independent_IC50"
+        ].iat[0]
         == 3
     )
     target = entities["target"]
-    assert target.loc[target["target_id"] == "tar1", "independent_IC50"].iat[0] == 1
+    assert (
+        target.loc[target["target_chembl_id"] == "tar1", "independent_IC50"].iat[0] == 1
+    )
