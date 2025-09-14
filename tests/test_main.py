@@ -18,3 +18,15 @@ def test_classify_directory(tmp_path: Path) -> None:
         activity.loc[activity["activity_chembl_id"] == "a1", "independent_IC50"].iat[0]
         == 1
     )
+
+    init_status = pd.read_csv(tmp_path / "InitializeStatus.csv")
+    assert "Filtered.init" in init_status.columns
+    assert (
+        init_status.loc[init_status["activity_chembl_id"] == "a2", "Filtered.init"].iat[
+            0
+        ]
+        == "no_issue"
+    )
+
+    init_pairs = pd.read_csv(tmp_path / "InitializePairs.csv")
+    assert {"Filtered1", "Filtered2"}.issubset(init_pairs.columns)

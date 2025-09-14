@@ -9,7 +9,7 @@ throughout the preprocessing pipeline.
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Dict, List
+from typing import Dict, List, Optional
 
 import pandas as pd
 
@@ -65,13 +65,52 @@ class StatusAPI:
             raise ValueError("no matching statuses")
         return subset.sort_values("order").iloc[-1]["status"]
 
-    def pair(self, status1: str, status2: str) -> str:
-        """Return the higher priority status between ``status1`` and ``status2``."""
+    def pair(self, status1: Optional[str], status2: Optional[str]) -> Optional[str]:
+        """Return the higher priority status between ``status1`` and ``status2``.
 
-        subset = self.table[self.table["status"].isin([status1, status2])]
-        if subset.empty:
-            raise ValueError("unknown status in pair")
-        return subset.iloc[0]["status"]
+        Unknown statuses fall back to the other value.  If neither status is
+        known, the function returns the original value when both match and raises
+        :class:`ValueError` otherwise.
+
+        Parameters
+        ----------
+        status1, status2:
+            Status labels to compare.  Values not present in the reference table
+            are treated as unknown.
+
+        Returns
+        -------
+        Optional[str]
+            The status with higher priority based on the global ordering.  ``None``
+            is returned only when both inputs are unknown and ``None``.
+        """
+
+        # Normalise ``NaN`` values produced by pandas to ``None`` for easier
+        # comparisons and lookups in ``status_list``.
+        if pd.isna(status1):
+            status1 = None
+        if pd.isna(status2):
+            status2 = None
+
+        in_table1 = status1 in self.status_list if status1 is not None else False
+        in_table2 = status2 in self.status_list if status2 is not None else False
+
+        if in_table1 and in_table2 and status1 is not None and status2 is not None:
+            # Lower ``order`` value indicates higher priority.
+            return (
+                status1
+                if self.order_map[status1] <= self.order_map[status2]
+                else status2
+            )
+        if in_table1:
+            return status1
+        if in_table2:
+            return status2
+        # Both statuses are unknown; return the value when identical to preserve
+        # the information, otherwise fail fast to surface unexpected inputs.
+        if status1 == status2:
+            return status1
+        raise ValueError("unknown status in pair")
 
     def ascending(self, a: str, b: str) -> int:
         """Comparator returning ``1`` if ``a`` > ``b`` in the global order."""
