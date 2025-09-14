@@ -5,15 +5,15 @@ import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
-from status_utils import StatusUtils
+from status_api import StatusAPI
 
 
-def make_utils() -> StatusUtils:
+def make_utils() -> StatusAPI:
     df = pd.read_csv("tests/data/status.csv")
-    return StatusUtils(df)
+    return StatusAPI(df)
 
 
-def test_basic_helpers():
+def test_basic_helpers() -> None:
     utils = make_utils()
     assert utils.get_min(["high_citation_rate"]) == "S1"
     assert utils.get_max(["S1", "S3"]) == "S3"

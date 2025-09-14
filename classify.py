@@ -1,4 +1,5 @@
 """Command line interface for the classification pipeline."""
+
 from __future__ import annotations
 
 import argparse
@@ -10,15 +11,14 @@ from typing import Any, Dict
 import yaml
 
 from constants import Cols
+from io_utils import load_csv, write_csv_with_meta
 from pipeline import (
     Config,
     aggregate_entities,
     initialize_pairs,
     initialize_status,
-    load_csv,
-    write_csv_with_meta,
 )
-from status_utils import StatusUtils
+from status_api import StatusAPI
 
 DEFAULT_CONFIG = {
     "io": {"input_dir": "input/same_document", "output_dir": "output"},
@@ -81,7 +81,7 @@ def main() -> int:
     activities_df = load_csv(input_dir / "activities.csv")
     pairs_df = load_csv(input_dir / "pairs.csv")
 
-    utils = StatusUtils(status_df)
+    utils = StatusAPI(status_df)
     activities_init = initialize_status(
         activities_df, utils, config.status.get("empty_min_fallback", "GLOBAL_MIN")
     )

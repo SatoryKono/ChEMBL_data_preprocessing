@@ -3,16 +3,12 @@
 from __future__ import annotations
 
 from dataclasses import dataclass
-from datetime import datetime
-import hashlib
-from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List
 
 import pandas as pd
-import yaml
 
 from constants import Cols
-from status_utils import StatusUtils
+from status_api import StatusAPI
 
 STATUS_FLAGS: List[str] = [
     "high_citation_rate",
@@ -47,14 +43,10 @@ class Config:
 
 
 # ---------------------------------------------------------------------------
-def load_csv(path: Path, dtype: Optional[Dict[str, str]] = None) -> pd.DataFrame:
-    """Load a CSV file using UTF-8 encoding."""
-
-    return pd.read_csv(path, dtype=dtype)  # type: ignore[arg-type]
 
 
 def initialize_status(
-    activities: pd.DataFrame, status: StatusUtils, empty_fallback: str
+    activities: pd.DataFrame, status: StatusAPI, empty_fallback: str
 ) -> pd.DataFrame:
     """Add ``no_issue`` and ``Filtered.init`` columns to *activities*.
 
@@ -63,7 +55,7 @@ def initialize_status(
     activities:
         Raw activities dataframe.
     status:
-        :class:`StatusUtils` instance.
+        :class:`StatusAPI` instance.
     empty_fallback:
         Behaviour when no flags are active. ``GLOBAL_MIN`` returns the
         minimal status from the global order, ``ERROR`` raises ``ValueError``.
@@ -86,7 +78,7 @@ def initialize_status(
 
 
 def initialize_pairs(
-    pairs: pd.DataFrame, activities: pd.DataFrame, status: StatusUtils
+    pairs: pd.DataFrame, activities: pd.DataFrame, status: StatusAPI
 ) -> pd.DataFrame:
     """Attach initial statuses from *activities* to *pairs* and compute ``Filtered``."""
 
@@ -111,7 +103,7 @@ def initialize_pairs(
 
 
 # ---------------------------------------------------------------------------
-def _agg_filtered(status: StatusUtils, series: pd.Series) -> str:
+def _agg_filtered(status: StatusAPI, series: pd.Series) -> str:
     statuses = [s for s in series if isinstance(s, str)]
     return status.get_max(statuses)
 
@@ -140,7 +132,7 @@ def ensure_count_columns(df: pd.DataFrame) -> pd.DataFrame:
     return result
 
 
-def _aggregate(df: pd.DataFrame, group_col: str, status: StatusUtils) -> pd.DataFrame:
+def _aggregate(df: pd.DataFrame, group_col: str, status: StatusAPI) -> pd.DataFrame:
     df = ensure_count_columns(df)
     return (
         df.groupby(group_col)
@@ -159,7 +151,6 @@ def _aggregate(df: pd.DataFrame, group_col: str, status: StatusUtils) -> pd.Data
 
 
 def activity_from_pairs(pairs: pd.DataFrame) -> pd.DataFrame:
-
     """Return a unified activity table built from *pairs*.
 
     The input ``pairs`` table may originate from different preprocessing
@@ -185,17 +176,18 @@ def activity_from_pairs(pairs: pd.DataFrame) -> pd.DataFrame:
     # names.  This avoids ``KeyError`` when selecting ``cols`` below.
     rename_map = {}
     if Cols.TESTITEM_ID not in pairs.columns:
-        if "molecule_chembl_id" in pairs.columns:
-            rename_map["molecule_chembl_id"] = Cols.TESTITEM_ID
+        for alt in ("testitem_chembl_id", "molecule_chembl_id"):
+            if alt in pairs.columns:
+                rename_map[alt] = Cols.TESTITEM_ID
+                break
     if Cols.MEASUREMENT_TYPE not in pairs.columns:
-        # the column is historically misspelled; also accept ``standard_type``
-        for alt in ("measurement_type", "standard_type"):
+        # the column is historically misspelled; accept several variations
+        for alt in ("measurement_type", "mesurement_type", "standard_type"):
             if alt in pairs.columns:
                 rename_map[alt] = Cols.MEASUREMENT_TYPE
                 break
     if rename_map:
         pairs = pairs.rename(columns=rename_map)
-
 
     cols = [
         Cols.ACTIVITY_ID1,
@@ -234,7 +226,7 @@ def activity_from_pairs(pairs: pd.DataFrame) -> pd.DataFrame:
 
 
 def aggregate_entities(
-    pair_table: pd.DataFrame, activity_table: pd.DataFrame, status: StatusUtils
+    pair_table: pd.DataFrame, activity_table: pd.DataFrame, status: StatusAPI
 ) -> Dict[str, pd.DataFrame]:
     """Return aggregated tables for all required entities."""
 
@@ -275,28 +267,3 @@ def aggregate_entities(
         "testitem": testitem,
         "target": target,
     }
-
-
-# ---------------------------------------------------------------------------
-def write_csv_with_meta(
-    df: pd.DataFrame,
-    path: Path,
-    inputs: List[Path],
-    version: str,
-) -> None:
-    """Write ``df`` to ``path`` and create accompanying ``.meta.yaml``."""
-
-    path.parent.mkdir(parents=True, exist_ok=True)
-    csv_bytes = df.to_csv(index=False).encode("utf-8")
-    path.write_bytes(csv_bytes)
-
-    meta = {
-        "generated": datetime.utcnow().isoformat(),
-        "version": version,
-        "inputs": [str(p) for p in inputs],
-        "rows": int(df.shape[0]),
-        "cols": int(df.shape[1]),
-        "sha256": hashlib.sha256(csv_bytes).hexdigest(),
-    }
-    meta_path = path.with_suffix(".meta.yaml")
-    meta_path.write_text(yaml.safe_dump(meta))

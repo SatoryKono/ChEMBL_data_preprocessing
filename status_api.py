@@ -1,15 +1,14 @@
 """Utilities for working with activity statuses.
 
-This module exposes helper functions that mirror the behaviour of the
+This module exposes helper functions mirroring the behaviour of the
 Power Query (M) code used in the original data pipeline.  The functions
-operate on a status reference table with columns:
+operate on a status reference table with columns::
 
-```
-status, condition_field, condition_value, order, score
-```
+    status, condition_field, condition_value, order, score
 
 The table must already be validated and provided as a :class:`pandas.DataFrame`.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass
@@ -19,15 +18,14 @@ import pandas as pd
 
 
 @dataclass
-class StatusUtils:
+class StatusAPI:
     """Helper object providing status related utilities.
 
     Parameters
     ----------
     table:
-        Status reference table containing at least the columns
-        ``status``, ``condition_field``, ``condition_value``, ``order`` and
-        ``score``.
+        Status reference table containing at least the columns ``status``,
+        ``condition_field``, ``condition_value``, ``order`` and ``score``.
     """
 
     table: pd.DataFrame
@@ -47,19 +45,7 @@ class StatusUtils:
 
     # ------------------------------------------------------------------
     def get_min(self, condition_fields: List[str]) -> str:
-        """Return the minimal status matching *condition_fields*.
-
-        Parameters
-        ----------
-        condition_fields:
-            List of field names that are ``True`` for the activity.
-
-        Returns
-        -------
-        str
-            Status name with the lowest ``order`` corresponding to one of
-            the supplied ``condition_field`` values.
-        """
+        """Return the minimal status matching ``condition_fields``."""
 
         subset = self.table[self.table["condition_field"].isin(condition_fields)]
         if subset.empty:
@@ -75,7 +61,7 @@ class StatusUtils:
         return subset.sort_values("order").iloc[-1]["status"]
 
     def pair(self, status1: str, status2: str) -> str:
-        """Return the higher priority status between *status1* and *status2*."""
+        """Return the higher priority status between ``status1`` and ``status2``."""
 
         subset = self.table[self.table["status"].isin([status1, status2])]
         if subset.empty:
