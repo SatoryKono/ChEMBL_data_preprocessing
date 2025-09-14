@@ -1,6 +1,6 @@
 io:
   input_dir: "data/input/same_document"
-  output_dir: "output"
+  output_dir: "data/output/same_document"
 status:
   empty_min_fallback: "GLOBAL_MIN"
 runtime:

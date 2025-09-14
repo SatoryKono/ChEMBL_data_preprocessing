@@ -1,0 +1,9 @@
+cols: 6
+generated: '2025-09-14T14:21:16.668255'
+inputs:
+- data\input\same_document\status.csv
+- data\input\same_document\activities.csv
+- data\input\same_document\pairs.csv
+rows: 1372
+sha256: 2cf38b145017f2c6584cb8594bb6a1db08cd45a63c09af81fc5266fe901ad963
+version: '1.0'
