@@ -1,0 +1,10 @@
+io:
+  input_dir: "input/same_document"
+  output_dir: "output"
+status:
+  empty_min_fallback: "GLOBAL_MIN"
+runtime:
+  fail_on_missing_columns: true
+  float_na_fill: null
+log:
+  level: "INFO"

@@ -1,0 +1,4 @@
+status,condition_field,condition_value,order,score
+S1,high_citation_rate,1,1,10
+S2,review,1,2,5
+S3,other,1,3,0
