@@ -5,8 +5,14 @@ import pandas as pd
 
 sys.path.append(str(Path(__file__).resolve().parents[1]))
 
-from pipeline import aggregate_entities, initialize_pairs, initialize_status
+from pipeline import (
+    activity_from_pairs,
+    aggregate_entities,
+    initialize_pairs,
+    initialize_status,
+)
 from status_utils import StatusUtils
+from constants import Cols
 
 
 def load_data():
@@ -70,6 +76,28 @@ def test_pairs_and_aggregates():
     assert (
         target.loc[target["target_chembl_id"] == "tar1", "independent_IC50"].iat[0] == 1
     )
+
+
+def test_activity_from_pairs_merges_status() -> None:
+    """``activity_from_pairs`` merges status and resolves final flags."""
+    status, activities, pairs = load_data()
+    init_act = initialize_status(activities, status, "GLOBAL_MIN")
+    init_pairs = initialize_pairs(pairs, init_act, status)
+    merged = activity_from_pairs(init_pairs, init_act, status)
+
+    # Columns from ``InitializeStatus`` are present
+    assert Cols.FILTERED_INIT in merged.columns
+    assert Cols.NO_ISSUE in merged.columns
+    # Pair-derived column is retained for comparison
+    assert Cols.FILTERED_NEW in merged.columns
+
+    # Count columns are not duplicated after the merge
+    assert "independent_IC50_x" not in merged.columns
+    assert "independent_IC50_y" not in merged.columns
+
+    # ``Filtered`` is updated according to the status ordering rules
+    row_a2 = merged.loc[merged[Cols.ACTIVITY_ID] == "a2"].iloc[0]
+    assert row_a2[Cols.FILTERED] == "S2"
 
 
 def test_pairs_with_legacy_columns() -> None:
