@@ -65,11 +65,30 @@ def classify_directory(
     )
     pairs_df = pd.read_csv(input_dir / "pairs.csv", sep=sep, encoding=encoding)
 
+    inputs: List[Path] = [
+        input_dir / "status.csv",
+        input_dir / "activities.csv",
+        input_dir / "pairs.csv",
+    ]
+
+    output_dir.mkdir(parents=True, exist_ok=True)
+
     utils = StatusUtils(status_df)
 
     # Apply the status initialisation and pair logic
     activities_init = initialize_status(activities_df, utils, "GLOBAL_MIN")
+    activities_sorted = activities_init.sort_values(Cols.ACTIVITY_ID).reset_index(
+        drop=True
+    )
+    write_csv_with_meta(
+        activities_sorted, output_dir / "InitializeStatus.csv", inputs, "1.0"
+    )
+
     pairs_init = initialize_pairs(pairs_df, activities_init, utils)
+    pairs_sorted = pairs_init.sort_values(
+        [Cols.ACTIVITY_ID1, Cols.ACTIVITY_ID2]
+    ).reset_index(drop=True)
+    write_csv_with_meta(pairs_sorted, output_dir / "InitializePairs.csv", inputs, "1.0")
 
     # Aggregate to all required entity levels
     entities = aggregate_entities(pairs_init, activities_init, utils)
@@ -84,13 +103,6 @@ def classify_directory(
         "target": Cols.TARGET_ID,
     }
 
-    inputs: List[Path] = [
-        input_dir / "status.csv",
-        input_dir / "activities.csv",
-        input_dir / "pairs.csv",
-    ]
-
-    output_dir.mkdir(parents=True, exist_ok=True)
     for name, df in entities.items():
         key = sort_keys[name]
         df_sorted = df.sort_values(key).reset_index(drop=True)
