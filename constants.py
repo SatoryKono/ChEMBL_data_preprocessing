@@ -7,7 +7,7 @@ from dataclasses import dataclass
 class Cols:
     """String constants for dataframe column names."""
 
-    ACTIVITY_ID: str = "activity_chemb_id"
+    ACTIVITY_ID: str = "activity_chembl_id"
     ACTIVITY_ID1: str = "activity_chembl_id1"
     ACTIVITY_ID2: str = "activity_chembl_id2"
     ASSAY_ID: str = "assay_chembl_id"

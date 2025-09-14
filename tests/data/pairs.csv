@@ -1,2 +1,2 @@
-activity_id1,activity_id2,testitem_id,target_id,mesurement_type,independent_IC50,non_independent_IC50,independent_Ki,non_independent_Ki
+activity_chembl_id1,activity_chembl_id2,testitem_chembl_id,target_chembl_id,mesurement_type,independent_IC50,non_independent_IC50,independent_Ki,non_independent_Ki
 a1,a2,t1,tar1,type1,1,3,2,4
