@@ -12,7 +12,7 @@ import pandas as pd
 import yaml
 
 from constants import Cols
-from status_utils import StatusUtils
+from status_api import StatusAPI
 
 STATUS_FLAGS: List[str] = [
     "high_citation_rate",
@@ -98,7 +98,7 @@ def _normalise_activity_columns(df: pd.DataFrame) -> pd.DataFrame:
 
 
 def initialize_status(
-    activities: pd.DataFrame, status: StatusUtils, empty_fallback: str
+    activities: pd.DataFrame, status: StatusAPI, empty_fallback: str
 ) -> pd.DataFrame:
     """Add ``no_issue`` and ``Filtered.init`` columns to *activities*.
 
@@ -107,7 +107,7 @@ def initialize_status(
     activities:
         Raw activities dataframe.
     status:
-        :class:`StatusUtils` instance.
+        :class:`StatusAPI` instance.
     empty_fallback:
         Behaviour when no flags are active. ``GLOBAL_MIN`` returns the
         minimal status from the global order, ``ERROR`` raises ``ValueError``.
@@ -130,7 +130,7 @@ def initialize_status(
 
 
 def initialize_pairs(
-    pairs: pd.DataFrame, activities: pd.DataFrame, status: StatusUtils
+    pairs: pd.DataFrame, activities: pd.DataFrame, status: StatusAPI
 ) -> pd.DataFrame:
     """Attach initial statuses from *activities* to *pairs* and compute ``Filtered``."""
 
@@ -155,7 +155,7 @@ def initialize_pairs(
 
 
 # ---------------------------------------------------------------------------
-def _agg_filtered(status: StatusUtils, series: pd.Series) -> str:
+def _agg_filtered(status: StatusAPI, series: pd.Series) -> str:
     statuses = [s for s in series if isinstance(s, str)]
     return status.get_max(statuses)
 
@@ -184,7 +184,7 @@ def ensure_count_columns(df: pd.DataFrame) -> pd.DataFrame:
     return result
 
 
-def _aggregate(df: pd.DataFrame, group_col: str, status: StatusUtils) -> pd.DataFrame:
+def _aggregate(df: pd.DataFrame, group_col: str, status: StatusAPI) -> pd.DataFrame:
     df = ensure_count_columns(df)
     return (
         df.groupby(group_col)
@@ -283,7 +283,7 @@ def activity_from_pairs(pairs: pd.DataFrame) -> pd.DataFrame:
 
 
 def aggregate_entities(
-    pair_table: pd.DataFrame, activity_table: pd.DataFrame, status: StatusUtils
+    pair_table: pd.DataFrame, activity_table: pd.DataFrame, status: StatusAPI
 ) -> Dict[str, pd.DataFrame]:
     """Return aggregated tables for all required entities."""
 
