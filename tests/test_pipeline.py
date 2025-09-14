@@ -67,24 +67,22 @@ def test_pairs_and_aggregates():
     )
 
 
-def test_aggregate_missing_count_columns():
+
+def test_pairs_with_legacy_columns() -> None:
+    """``aggregate_entities`` handles pairs with legacy column names."""
     status, activities, pairs = load_data()
-    # Remove count columns to simulate minimal input data
-    count_cols = [
-        Cols.INDEPENDENT_IC50,
-        Cols.NON_INDEPENDENT_IC50,
-        Cols.INDEPENDENT_KI,
-        Cols.NON_INDEPENDENT_KI,
-    ]
-    activities = activities.drop(columns=count_cols)
-    pairs = pairs.drop(columns=count_cols)
-
+    legacy_pairs = pairs.rename(
+        columns={
+            "testitem_chembl_id": "molecule_chembl_id",
+            "mesurement_type": "standard_type",
+        }
+    )
     init_act = initialize_status(activities, status, "GLOBAL_MIN")
-    init_pairs = initialize_pairs(pairs, init_act, status)
+    init_pairs = initialize_pairs(legacy_pairs, init_act, status)
     entities = aggregate_entities(init_pairs, init_act, status)
+    activity = entities["activity"]
+    assert (
+        activity.loc[activity["activity_chembl_id"] == "a1", "independent_IC50"].iat[0]
+        == 1
+    )
 
-    # All outputs should contain the count columns filled with zeros
-    for df in entities.values():
-        for col in count_cols:
-            assert col in df.columns
-            assert df[col].sum() == 0
