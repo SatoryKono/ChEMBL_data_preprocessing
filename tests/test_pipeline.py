@@ -42,8 +42,8 @@ def test_pairs_and_aggregates():
     init_act = initialize_status(activities, status, "GLOBAL_MIN")
     init_pairs = initialize_pairs(pairs, init_act, status)
     assert init_pairs["Filtered"].iat[0] == "S1"
-
-    entities = aggregate_entities(init_pairs, init_act, status)
+    act_pairs = activity_from_pairs(init_pairs, init_act, status)
+    entities = aggregate_entities(init_pairs, init_act, status, act_pairs)
     activity = entities["activity"]
     assert (
         activity.loc[activity["activity_chembl_id"] == "a1", "independent_IC50"].iat[0]
@@ -79,13 +79,11 @@ def test_pairs_and_aggregates():
 
 
 def test_activity_from_pairs_merges_status() -> None:
-
     """``activity_from_pairs`` merges status and resolves final flags."""
     status, activities, pairs = load_data()
     init_act = initialize_status(activities, status, "GLOBAL_MIN")
     init_pairs = initialize_pairs(pairs, init_act, status)
     merged = activity_from_pairs(init_pairs, init_act, status)
-
 
     # Columns from ``InitializeStatus`` are present
     assert Cols.FILTERED_INIT in merged.columns
@@ -94,16 +92,13 @@ def test_activity_from_pairs_merges_status() -> None:
     # Pair-derived column is retained for comparison
     assert Cols.FILTERED_NEW in merged.columns
 
-
     # Count columns are not duplicated after the merge
     assert "independent_IC50_x" not in merged.columns
     assert "independent_IC50_y" not in merged.columns
 
-
     # ``Filtered`` is updated according to the status ordering rules
     row_a2 = merged.loc[merged[Cols.ACTIVITY_ID] == "a2"].iloc[0]
     assert row_a2[Cols.FILTERED] == "S2"
-
 
 
 def test_pairs_with_legacy_columns() -> None:
