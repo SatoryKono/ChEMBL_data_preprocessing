@@ -102,6 +102,10 @@ def initialize_status(
 ) -> pd.DataFrame:
     """Add ``no_issue`` and ``Filtered.init`` columns to *activities*.
 
+    When the ``no_issue`` column evaluates to :data:`True`, ``Filtered.init``
+    is set to the literal string ``"no_issue"`` regardless of other active
+    status flags.
+
     Parameters
     ----------
     activities:
@@ -114,9 +118,18 @@ def initialize_status(
     """
 
     df = _normalise_activity_columns(activities.copy())
-    df[Cols.NO_ISSUE] = ~df[STATUS_FLAGS].any(axis=1)
+
+    if Cols.NO_ISSUE in df.columns:
+        # Ensure boolean dtype if ``no_issue`` is provided by the caller
+        df[Cols.NO_ISSUE] = df[Cols.NO_ISSUE].astype(bool)
+    else:
+        # Derive ``no_issue`` when not supplied by checking for active flags
+        df[Cols.NO_ISSUE] = ~df[STATUS_FLAGS].any(axis=1)
 
     def _compute(row: pd.Series) -> str:
+        # ``no_issue`` rows take precedence over all other status flags
+        if row.get(Cols.NO_ISSUE, False):
+            return Cols.NO_ISSUE
         active_fields = [f for f in STATUS_FLAGS if row.get(f, False)]
         valid = [f for f in active_fields if f in status.condition_fields]
         if valid:
