@@ -39,7 +39,9 @@ def test_initialize_pairs_and_aggregations() -> None:
 
     activity_tbl = aggregate_activity(pairs, statuses)
     assert (
-        activity_tbl.loc[activity_tbl["activity_id1"] == "act1", "Filtered.new"].item()
+        activity_tbl.loc[
+            activity_tbl["activity_chembl_id"] == "act1", "Filtered.new"
+        ].item()
         == "WARNING"
     )
 
@@ -54,7 +56,17 @@ def test_initialize_pairs_and_aggregations() -> None:
     assert system_tbl.loc[0, "Filtered.new"] == "ERROR"
 
     testitem_tbl = aggregate_testitem(system_tbl, statuses)
-    assert testitem_tbl.loc[0, "Filtered.new"] == "ERROR"
+    assert (
+        testitem_tbl.loc[
+            testitem_tbl["molecule_chembl_id"] == "test1", "Filtered.new"
+        ].item()
+        == "ERROR"
+    )
 
     target_tbl = aggregate_target(system_tbl, statuses)
-    assert target_tbl.loc[0, "Filtered.new"] == "ERROR"
+    assert (
+        target_tbl.loc[
+            target_tbl["target_chembl_id"] == "targ1", "Filtered.new"
+        ].item()
+        == "ERROR"
+    )

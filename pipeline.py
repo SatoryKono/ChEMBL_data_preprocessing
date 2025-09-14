@@ -100,12 +100,12 @@ STATUS_FLAGS: list[str] = [
 ]
 
 ID_COLS = [
-    "activity_id",
-    "assay_id",
-    "document_id",
-    "testitem_id",
-    "target_id",
-    "mesurement_type",
+    "activity_chembl_id",
+    "assay_chembl_id",
+    "document_chembl_id",
+    "molecule_chembl_id",
+    "target_chembl_id",
+    "standard_type",
 ]
 
 METRIC_COLS = [
@@ -218,11 +218,11 @@ def load_activities(path: Path, runtime: RuntimeConfig) -> pd.DataFrame:
 
 def load_pairs(path: Path, runtime: RuntimeConfig) -> pd.DataFrame:
     dtype = {
-        "activity_id1": "string",
-        "activity_id2": "string",
-        "testitem_id": "string",
-        "target_id": "string",
-        "mesurement_type": "string",
+        "activity_chembl_id1": "string",
+        "activity_chembl_id2": "string",
+        "molecule_chembl_id": "string",
+        "target_chembl_id": "string",
+        "standard_type": "string",
     }
     df = pd.read_csv(path, dtype=dtype, na_values=[""], keep_default_na=True)  # type: ignore[arg-type]
     _validate_columns(
@@ -271,15 +271,21 @@ def initialize_pairs(
 ) -> pd.DataFrame:
     """Attach initial statuses to activity pairs."""
 
-    act = activities[["activity_id", "Filtered.init"]]
+    act = activities[["activity_chembl_id", "Filtered.init"]]
     merged = pairs.merge(
-        act, left_on="activity_id1", right_on="activity_id", how="left"
+        act,
+        left_on="activity_chembl_id1",
+        right_on="activity_chembl_id",
+        how="left",
     ).rename(columns={"Filtered.init": "Filtered1"})
-    merged = merged.drop(columns=["activity_id"])
+    merged = merged.drop(columns=["activity_chembl_id"])
     merged = merged.merge(
-        act, left_on="activity_id2", right_on="activity_id", how="left"
+        act,
+        left_on="activity_chembl_id2",
+        right_on="activity_chembl_id",
+        how="left",
     ).rename(columns={"Filtered.init": "Filtered2"})
-    merged = merged.drop(columns=["activity_id"])
+    merged = merged.drop(columns=["activity_chembl_id"])
     merged["Filtered"] = merged.apply(
         lambda r: statuses.pair(r["Filtered1"], r["Filtered2"]), axis=1
     )
@@ -308,49 +314,51 @@ def _aggregate_entity(
 def aggregate_activity(pairs: pd.DataFrame, statuses: StatusUtils) -> pd.DataFrame:
     part1 = pairs[
         [
-            "activity_id1",
-            "testitem_id",
-            "target_id",
-            "mesurement_type",
+            "activity_chembl_id1",
+            "molecule_chembl_id",
+            "target_chembl_id",
+            "standard_type",
             "Filtered",
             *METRIC_COLS,
         ]
-    ]
+    ].rename(columns={"activity_chembl_id1": "activity_chembl_id"})
     part2 = pairs[
         [
-            "activity_id2",
-            "testitem_id",
-            "target_id",
-            "mesurement_type",
+            "activity_chembl_id2",
+            "molecule_chembl_id",
+            "target_chembl_id",
+            "standard_type",
             "Filtered",
             *METRIC_COLS,
         ]
-    ].rename(columns={"activity_id2": "activity_id1"})
+    ].rename(columns={"activity_chembl_id2": "activity_chembl_id"})
     unified = pd.concat([part1, part2], ignore_index=True).drop_duplicates()
-    unified = unified[unified["activity_id1"].notna() & (unified["activity_id1"] != "")]
-    unified = unified.rename(columns={"Filtered": "Filtered"})
-    return _aggregate_entity(unified, "activity_id1", statuses)
+    unified = unified[
+        unified["activity_chembl_id"].notna()
+        & (unified["activity_chembl_id"] != "")
+    ]
+    return _aggregate_entity(unified, "activity_chembl_id", statuses)
 
 
 def aggregate_assay(activities: pd.DataFrame, statuses: StatusUtils) -> pd.DataFrame:
     df = activities.rename(columns={"Filtered.init": "Filtered"})
-    return _aggregate_entity(df, "assay_id", statuses)
+    return _aggregate_entity(df, "assay_chembl_id", statuses)
 
 
 def aggregate_document(activities: pd.DataFrame, statuses: StatusUtils) -> pd.DataFrame:
     df = activities.rename(columns={"Filtered.init": "Filtered"})
-    return _aggregate_entity(df, "document_id", statuses)
+    return _aggregate_entity(df, "document_chembl_id", statuses)
 
 
 def aggregate_system(activities: pd.DataFrame, statuses: StatusUtils) -> pd.DataFrame:
     df = activities.copy()
     df = df.rename(columns={"Filtered.init": "Filtered"})
     df["system_id"] = (
-        df["testitem_id"].astype(str)
+        df["molecule_chembl_id"].astype(str)
         + "_"
-        + df["target_id"].astype(str)
+        + df["target_chembl_id"].astype(str)
         + "_"
-        + df["mesurement_type"].astype(str)
+        + df["standard_type"].astype(str)
     )
     return _aggregate_entity(df, "system_id", statuses)
 
@@ -358,15 +366,19 @@ def aggregate_system(activities: pd.DataFrame, statuses: StatusUtils) -> pd.Data
 def aggregate_testitem(system_df: pd.DataFrame, statuses: StatusUtils) -> pd.DataFrame:
     df = system_df.copy().rename(columns={"Filtered.new": "Filtered"})
     split = df["system_id"].str.split("_", expand=True)
-    df = df.assign(testitem_id=split[0], target_id=split[1], type=split[2])
-    return _aggregate_entity(df, "testitem_id", statuses)
+    df = df.assign(
+        molecule_chembl_id=split[0], target_chembl_id=split[1], type=split[2]
+    )
+    return _aggregate_entity(df, "molecule_chembl_id", statuses)
 
 
 def aggregate_target(system_df: pd.DataFrame, statuses: StatusUtils) -> pd.DataFrame:
     df = system_df.copy().rename(columns={"Filtered.new": "Filtered"})
     split = df["system_id"].str.split("_", expand=True)
-    df = df.assign(testitem_id=split[0], target_id=split[1], type=split[2])
-    return _aggregate_entity(df, "target_id", statuses)
+    df = df.assign(
+        molecule_chembl_id=split[0], target_chembl_id=split[1], type=split[2]
+    )
+    return _aggregate_entity(df, "target_chembl_id", statuses)
 
 
 # ---------------------------------------------------------------------------
@@ -415,17 +427,25 @@ def run_pipeline(cfg: Config) -> None:
     pairs = initialize_pairs(pairs, activities, statuses)
 
     logging.info("Aggregating activity level")
-    activity_tbl = aggregate_activity(pairs, statuses).sort_values("activity_id1")
+    activity_tbl = aggregate_activity(pairs, statuses).sort_values(
+        "activity_chembl_id"
+    )
     logging.info("Aggregating assay level")
-    assay_tbl = aggregate_assay(activities, statuses).sort_values("assay_id")
+    assay_tbl = aggregate_assay(activities, statuses).sort_values("assay_chembl_id")
     logging.info("Aggregating document level")
-    document_tbl = aggregate_document(activities, statuses).sort_values("document_id")
+    document_tbl = aggregate_document(activities, statuses).sort_values(
+        "document_chembl_id"
+    )
     logging.info("Aggregating system level")
     system_tbl = aggregate_system(activities, statuses).sort_values("system_id")
     logging.info("Aggregating test item level")
-    testitem_tbl = aggregate_testitem(system_tbl, statuses).sort_values("testitem_id")
+    testitem_tbl = aggregate_testitem(system_tbl, statuses).sort_values(
+        "molecule_chembl_id"
+    )
     logging.info("Aggregating target level")
-    target_tbl = aggregate_target(system_tbl, statuses).sort_values("target_id")
+    target_tbl = aggregate_target(system_tbl, statuses).sort_values(
+        "target_chembl_id"
+    )
 
     logging.info("Writing outputs to %s", output_dir)
     _save_with_meta(
