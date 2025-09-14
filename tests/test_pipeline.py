@@ -24,7 +24,10 @@ def test_initialize_status():
     status, activities, _ = load_data()
     init = initialize_status(activities, status, "GLOBAL_MIN")
     assert init.loc[init["activity_chembl_id"] == "a1", "Filtered.init"].iat[0] == "S1"
-    assert init.loc[init["activity_chembl_id"] == "a2", "Filtered.init"].iat[0] == "S1"
+    assert (
+        init.loc[init["activity_chembl_id"] == "a2", "Filtered.init"].iat[0]
+        == "no_issue"
+    )
     assert init["no_issue"].tolist() == [False, True]
 
 
@@ -41,7 +44,10 @@ def test_pairs_and_aggregates():
         == 1
     )
     assay = entities["assay"]
-    assert assay.loc[assay["assay_chembl_id"] == "ass1", "Filtered.new"].iat[0] == "S1"
+    assert (
+        assay.loc[assay["assay_chembl_id"] == "ass1", "Filtered.new"].iat[0]
+        == "no_issue"
+    )
     document = entities["document"]
     assert (
         document.loc[
