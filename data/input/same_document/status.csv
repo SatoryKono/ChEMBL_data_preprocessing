@@ -20,7 +20,7 @@ rounded data citation,390,1600,rounded_data_citation,FALSE,TRUE
 signlton (rounded data citation),400,1590,signlton_approx_cited_activity,null,TRUE
 high citation rate,190,1800,high_citation_rate,FALSE,TRUE
 signlton (high citation rate),200,1790,signlton_high_citation_rate,null,TRUE
-no issue,100,2000,no_issue,FALSE,TRUE
+no_issue,100,2000,no_issue,FALSE,TRUE
 ,,,,,
 ,,,,,
 ,,,,,
