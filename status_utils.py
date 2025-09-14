@@ -10,6 +10,7 @@ status, condition_field, condition_value, order, score
 
 The table must already be validated and provided as a :class:`pandas.DataFrame`.
 """
+
 from __future__ import annotations
 
 from dataclasses import dataclass

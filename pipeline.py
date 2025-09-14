@@ -159,7 +159,6 @@ def _aggregate(df: pd.DataFrame, group_col: str, status: StatusUtils) -> pd.Data
 
 
 def activity_from_pairs(pairs: pd.DataFrame) -> pd.DataFrame:
-
     """Return a unified activity table built from *pairs*.
 
     The input ``pairs`` table may originate from different preprocessing
@@ -195,7 +194,6 @@ def activity_from_pairs(pairs: pd.DataFrame) -> pd.DataFrame:
                 break
     if rename_map:
         pairs = pairs.rename(columns=rename_map)
-
 
     cols = [
         Cols.ACTIVITY_ID1,
