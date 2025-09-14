@@ -1,5 +1,5 @@
 io:
-  input_dir: "input/same_document"
+  input_dir: "data/input/same_document"
   output_dir: "output"
 status:
   empty_min_fallback: "GLOBAL_MIN"
