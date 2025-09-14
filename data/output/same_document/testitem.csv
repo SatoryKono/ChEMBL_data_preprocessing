@@ -1,4 +1,4 @@
-molecule_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independent_Ki,non_independent_Ki
+testitem_chembl_id,Filtered.new,independent_IC50,non_independent_IC50,independent_Ki,non_independent_Ki
 CHEMBL10,exact data citation,0,0,0,0
 CHEMBL1000,exact data citation,0,0,0,0
 CHEMBL100056,unicellular_organism,0,0,0,0
