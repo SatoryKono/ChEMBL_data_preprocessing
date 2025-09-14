@@ -21,31 +21,6 @@ signlton (rounded data citation),400,1590,signlton_approx_cited_activity,null,TR
 high citation rate,190,1800,high_citation_rate,FALSE,TRUE
 signlton (high citation rate),200,1790,signlton_high_citation_rate,null,TRUE
 no issue,100,2000,no_issue,FALSE,TRUE
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
-,,,,,
 exact data citation,1890,200,exact_data_citation,FALSE,TRUE
 signlton (exact data citation),1900,190,signlton_exact_cited_activity,null,TRUE
 highly correlated assays,1690,400,higly_correlated_assay,FALSE,TRUE
