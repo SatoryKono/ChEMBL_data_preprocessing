@@ -168,9 +168,35 @@ def initialize_pairs(
 
 
 # ---------------------------------------------------------------------------
-def _agg_filtered(status: StatusAPI, series: pd.Series) -> str:
-    statuses = [s for s in series if isinstance(s, str)]
-    return status.get_max(statuses)
+def _agg_filtered(status: StatusAPI, series: pd.Series) -> Optional[str]:
+    """Return the highest priority status from ``series``.
+
+    Unknown or missing status labels are ignored.  When no recognised statuses
+    remain, :data:`None` is returned instead of raising ``ValueError``.  This
+    mirrors the behaviour of the original Power Query implementation where
+    groups lacking valid statuses simply yield a null value.
+
+    Parameters
+    ----------
+    status:
+        :class:`StatusAPI` instance providing status order information.
+    series:
+        Series containing status labels to aggregate.
+
+    Returns
+    -------
+    Optional[str]
+        The maximal status present in ``series`` based on the global order, or
+        :data:`None` when no known statuses are found.
+    """
+
+    # Filter out non-string values and statuses unknown to ``StatusAPI`` to
+    # avoid spurious ``ValueError`` from ``StatusAPI.get_max``.
+    candidates = [s for s in series if isinstance(s, str) and s in status.status_list]
+    if not candidates:
+        # No valid status labels were encountered in this group.
+        return None
+    return status.get_max(candidates)
 
 
 def ensure_count_columns(df: pd.DataFrame) -> pd.DataFrame:
